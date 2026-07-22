@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name "ted-tender-watch-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/latest.json data/seen.json
+           git add data/latest.json data/seen.json data/debug_last_raw_sample.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
