@@ -1,0 +1,36 @@
+name: Daily TED tender check
+
+on:
+  schedule:
+    # 05:00 UTC daily = 06:00 Europe/Dublin during BST (summer) / 05:00 in winter.
+    # Runs ~1 hour before the Cowork email step to give it time to commit.
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run TED fetch + filter
+        run: python fetch_tenders.py
+
+      - name: Commit updated data files
+        run: |
+          git config user.name "ted-tender-watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/latest.json data/seen.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily TED tender data update ($(date -u +%Y-%m-%d))"
+            git push
+          fi
