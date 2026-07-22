@@ -2,30 +2,33 @@
 """
 Daily TED (Tenders Electronic Daily) watcher for OSINT / link-analysis /
 digital-forensics / data-fusion / criminal-intelligence platform tenders.
-
+ 
 What this does:
   1. Queries the public TED Search API (https://api.ted.europa.eu/v3/notices/search)
      twice: once by CPV classification code, once by full-text keyword (across EN/DE/
      FR/ES/IT/HU/PL/NL/PT), both restricted to a trailing publication-date window.
-  2. Merges + de-duplicates the two result sets by publication number.
-  3. Cross-checks against data/seen.json (a running list of notice IDs we've already
+  2. Merges + de-duplicates the two result sets by notice ID.
+  3. Compacts each raw notice down to a small, fixed set of fields (id, title, buyer,
+     country, cpv, deadline, publication date, url, which keywords matched) --
+     regardless of what TED's raw payload actually contains, since the exact shape
+     of that payload could not be verified live while this was written.
+  4. Cross-checks against data/seen.json (a running list of notice IDs we've already
      surfaced) so only genuinely NEW notices are reported each run.
-  4. Writes data/latest.json (today's new candidates, for the downstream email step)
-     and updates data/seen.json (so tomorrow's run doesn't re-report them).
-
-IMPORTANT / KNOWN RISK:
-  TED's expert-query syntax (operators like `~`, `IN (...)`, wildcards) and the exact
-  response field names are not fully documented in a way I could verify from inside
-  this sandbox (outbound network access there is restricted, so I could not run a
-  live test call while writing this). The query below is built from the officially
-  documented request schema (query / fields / page / limit / scope / paginationMode)
-  plus the expert-query conventions used on the TED website. If the first run in
-  GitHub Actions fails, check the Action log for the API's error message (TED
-  usually returns a helpful `{"message": ...}` body) and adjust QUERY_CPV /
-  QUERY_KEYWORDS below accordingly -- the rest of the pipeline (dedup, filtering,
-  output format) does not need to change.
+  5. Writes data/latest.json (today's new candidates, for the downstream email step),
+     data/debug_last_raw_sample.json (one untouched raw notice, for debugging field
+     names if something looks wrong), and updates data/seen.json.
+ 
+KNOWN RISK: TED's expert-query operator syntax (`~`, `=`, `IN (...)`) is built from
+the officially documented request schema (query/fields/page/limit/scope/
+paginationMode) plus TED website conventions, but could not be verified against a
+live call while writing this (no outbound access to api.ted.europa.eu from that
+environment). If a run's log shows a TED API error, the error body usually says
+exactly what's wrong -- bring it back to get the query strings adjusted. The
+compaction step below is deliberately defensive (tries many possible key names) so
+that even if the `fields` list isn't fully honored by TED, output size stays small
+and usable.
 """
-
+ 
 import json
 import os
 import sys
@@ -33,23 +36,29 @@ import time
 import urllib.request
 import urllib.error
 from datetime import date, timedelta
-
+ 
 SEARCH_URL = "https://api.ted.europa.eu/v3/notices/search"
-
+ 
 # How many days back to ask TED for, each run. Generous overlap because TED's own
 # publication pipeline can lag a day or two; true "new" filtering happens via
 # data/seen.json, not this window.
 LOOKBACK_DAYS = 5
-
+ 
+# Safety caps so a single run can never blow up file size / run time.
+MAX_PAGES_PER_QUERY = 10
+PAGE_LIMIT = 100
+MAX_NEW_NOTICES_OUTPUT = 300
+TEXT_FIELD_MAX_CHARS = 400
+ 
 # ---------------------------------------------------------------------------
 # Search criteria (from the user's brief)
 # ---------------------------------------------------------------------------
-
+ 
 CPV_PREFIXES = [
     "7220", "7221", "7223", "7226", "7228",
     "48000000", "48100000", "48730000", "48800000",
 ]
-
+ 
 # Expand short prefixes to the concrete 8-digit CPV divisions they refer to
 # (72200000 Software programming & consultancy, 72210000 Programming services of
 # packaged software, 72230000 Custom software development, 72260000
@@ -59,7 +68,7 @@ CPV_EXPANDED = sorted(set([
     "72200000", "72210000", "72230000", "72260000", "72280000",
     "48000000", "48100000", "48730000", "48800000",
 ]))
-
+ 
 KEYWORDS_BY_LANG = {
     "EN": [
         "software development", "custom software", "web application development",
@@ -118,9 +127,12 @@ KEYWORDS_BY_LANG = {
         "fusão de dados", "software de análise forense digital",
     ],
 }
-
+ 
 ALL_KEYWORDS = sorted({kw for kws in KEYWORDS_BY_LANG.values() for kw in kws})
-
+ 
+# Requested field allowlist. TED may or may not honor this fully -- the
+# compaction step below does not trust it and re-extracts defensively from
+# whatever actually comes back.
 FIELDS = [
     "publication-number",
     "notice-title",
@@ -132,13 +144,14 @@ FIELDS = [
     "notice-type",
     "links",
 ]
-
+ 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 SEEN_PATH = os.path.join(DATA_DIR, "seen.json")
 LATEST_PATH = os.path.join(DATA_DIR, "latest.json")
-
-
-def _post(query: str, page: int = 1, limit: int = 250):
+DEBUG_SAMPLE_PATH = os.path.join(DATA_DIR, "debug_last_raw_sample.json")
+ 
+ 
+def _post(query: str, page: int = 1, limit: int = PAGE_LIMIT):
     body = json.dumps({
         "query": query,
         "fields": FIELDS,
@@ -159,34 +172,34 @@ def _post(query: str, page: int = 1, limit: int = 250):
             return json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         err_body = e.read().decode("utf-8", errors="replace")
-        print(f"TED API error {e.code} for query={query!r}:\n{err_body}", file=sys.stderr)
+        print(f"TED API error {e.code} for query={query!r}:\n{err_body[:2000]}", file=sys.stderr)
         raise
     except urllib.error.URLError as e:
         print(f"Network error calling TED API: {e}", file=sys.stderr)
         raise
-
-
+ 
+ 
 def _date_window():
     end = date.today()
     start = end - timedelta(days=LOOKBACK_DAYS)
     return start.strftime("%Y%m%d"), end.strftime("%Y%m%d")
-
-
+ 
+ 
 def fetch_by_cpv():
     start, end = _date_window()
     cpv_clause = " OR ".join(f'classification-cpv={code}' for code in CPV_EXPANDED)
     query = f"({cpv_clause}) AND publication-date>={start} AND publication-date<={end}"
     return _fetch_all(query)
-
-
+ 
+ 
 def fetch_by_keyword():
     start, end = _date_window()
     kw_clause = " OR ".join(f'FT~"{kw}"' for kw in ALL_KEYWORDS)
     query = f"({kw_clause}) AND publication-date>={start} AND publication-date<={end}"
     return _fetch_all(query)
-
-
-def _fetch_all(query: str, max_pages: int = 10):
+ 
+ 
+def _fetch_all(query: str, max_pages: int = MAX_PAGES_PER_QUERY):
     results = []
     page = 1
     while page <= max_pages:
@@ -201,76 +214,163 @@ def _fetch_all(query: str, max_pages: int = 10):
         page += 1
         time.sleep(1)  # be polite to the public API
     return results
-
-
-def notice_id(n: dict) -> str:
-    return str(
-        n.get("publication-number")
-        or n.get("publicationNumber")
-        or n.get("id")
-        or json.dumps(n, sort_keys=True)
+ 
+ 
+def _first(raw: dict, *keys):
+    for k in keys:
+        v = raw.get(k)
+        if v not in (None, "", [], {}):
+            return v
+    return None
+ 
+ 
+def _as_text(v):
+    if v is None:
+        return None
+    if isinstance(v, str):
+        return v[:TEXT_FIELD_MAX_CHARS]
+    if isinstance(v, dict):
+        for lang in ("eng", "en", "ENG", "EN"):
+            if lang in v:
+                return str(v[lang])[:TEXT_FIELD_MAX_CHARS]
+        for val in v.values():
+            return str(val)[:TEXT_FIELD_MAX_CHARS]
+        return None
+    if isinstance(v, list):
+        return ", ".join(str(x) for x in v[:5])[:TEXT_FIELD_MAX_CHARS]
+    return str(v)[:TEXT_FIELD_MAX_CHARS]
+ 
+ 
+def _extract_url(raw: dict, pub_number):
+    links = raw.get("links")
+    if isinstance(links, dict):
+        for key in ("html", "pdf", "xml", "self"):
+            v = links.get(key)
+            if isinstance(v, dict):
+                for lang in ("ENG", "eng", "en", "EN"):
+                    if lang in v:
+                        return v[lang]
+                for val in v.values():
+                    return val
+            elif isinstance(v, str):
+                return v
+    if pub_number:
+        return f"https://ted.europa.eu/en/notice/-/detail/{pub_number}"
+    return None
+ 
+ 
+def notice_id(raw: dict) -> str:
+    pub_number = _first(
+        raw, "publication-number", "publicationNumber", "ND", "notice-id", "id"
     )
-
-
+    if pub_number:
+        return str(pub_number)
+    # Last resort: hash of the raw content so we still dedupe consistently.
+    return str(hash(json.dumps(raw, sort_keys=True)))
+ 
+ 
+def compact_notice(raw: dict, matched_via) -> dict:
+    """Reduce a raw TED notice (whatever shape it actually came in) down to a
+    small fixed set of fields, so output size stays bounded regardless of
+    what TED's API returns."""
+    blob_lower = json.dumps(raw, ensure_ascii=False).lower()
+    matched_keywords = sorted({kw for kw in ALL_KEYWORDS if kw.lower() in blob_lower})
+ 
+    pub_number = _first(
+        raw, "publication-number", "publicationNumber", "ND", "notice-id", "id"
+    )
+    cpv = _first(raw, "classification-cpv", "cpvs", "cpv")
+    if isinstance(cpv, list):
+        cpv = [str(c)[:20] for c in cpv[:10]]
+    elif cpv is not None:
+        cpv = [str(cpv)[:20]]
+ 
+    return {
+        "id": str(pub_number) if pub_number else notice_id(raw),
+        "title": _as_text(_first(raw, "notice-title", "title", "title-proc")),
+        "buyer": _as_text(_first(raw, "buyer-name", "buyerName", "organisation-name-buyer")),
+        "country": _as_text(_first(raw, "buyer-country", "buyerCountry", "country")),
+        "cpv": cpv,
+        "notice_type": _as_text(_first(raw, "notice-type", "noticeType", "form-type")),
+        "publication_date": _as_text(_first(raw, "publication-date", "publicationDate")),
+        "deadline": _as_text(_first(raw, "deadline-date-lot", "deadline", "deadlineReceiptRequest")),
+        "url": _extract_url(raw, pub_number),
+        "matched_via": sorted(set(matched_via)),
+        "matched_keywords": matched_keywords,
+    }
+ 
+ 
 def load_seen():
     if os.path.exists(SEEN_PATH):
         with open(SEEN_PATH) as f:
             return json.load(f)
     return {}
-
-
+ 
+ 
 def save_json(path, obj):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w") as f:
         json.dump(obj, f, indent=2, ensure_ascii=False, sort_keys=True)
-
-
+ 
+ 
 def main():
     try:
         cpv_hits = fetch_by_cpv()
     except Exception:
         cpv_hits = []
         print("CPV query failed, continuing with keyword-only results.", file=sys.stderr)
-
+ 
     try:
         kw_hits = fetch_by_keyword()
     except Exception:
         kw_hits = []
         print("Keyword query failed, continuing with CPV-only results.", file=sys.stderr)
-
-    merged = {}
+ 
+    # Save one untouched raw sample for debugging field names, without ever
+    # persisting the full raw payload for every notice.
+    sample = (cpv_hits or kw_hits or [None])[0]
+    if sample is not None:
+        save_json(DEBUG_SAMPLE_PATH, sample)
+ 
+    merged_via = {}
+    merged_raw = {}
     for n in cpv_hits:
-        merged[notice_id(n)] = {**n, "_matched_via": ["cpv"]}
+        nid = notice_id(n)
+        merged_raw[nid] = n
+        merged_via.setdefault(nid, set()).add("cpv")
     for n in kw_hits:
         nid = notice_id(n)
-        if nid in merged:
-            merged[nid]["_matched_via"].append("keyword")
-        else:
-            merged[nid] = {**n, "_matched_via": ["keyword"]}
-
+        merged_raw.setdefault(nid, n)
+        merged_via.setdefault(nid, set()).add("keyword")
+ 
     seen = load_seen()
     today_str = date.today().isoformat()
-
-    new_notices = {nid: n for nid, n in merged.items() if nid not in seen}
-
+ 
+    new_ids = [nid for nid in merged_raw if nid not in seen]
+    new_compact = [
+        compact_notice(merged_raw[nid], merged_via[nid]) for nid in new_ids
+    ]
+    new_compact = new_compact[:MAX_NEW_NOTICES_OUTPUT]
+ 
     # Update seen.json with everything we saw today (new + repeats), pruning
     # entries older than ~120 days to keep the file small.
-    for nid in merged:
+    for nid in merged_raw:
         seen[nid] = today_str
     cutoff = (date.today() - timedelta(days=120)).isoformat()
     seen = {nid: d for nid, d in seen.items() if d >= cutoff}
-
+ 
     save_json(SEEN_PATH, seen)
     save_json(LATEST_PATH, {
         "run_date": today_str,
         "lookback_days": LOOKBACK_DAYS,
-        "total_candidates_this_run": len(merged),
-        "new_notices": list(new_notices.values()),
+        "total_candidates_this_run": len(merged_raw),
+        "new_notices": new_compact,
     })
-
+ 
     print(f"Fetched {len(cpv_hits)} CPV hits, {len(kw_hits)} keyword hits, "
-          f"{len(merged)} unique, {len(new_notices)} new since last run.")
-
-
+          f"{len(merged_raw)} unique, {len(new_compact)} new since last run.")
+ 
+ 
 if __name__ == "__main__":
     main()
+ 
