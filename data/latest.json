@@ -2,14 +2,44 @@
   "lookback_days": 5,
   "new_notices": [
     {
-      "buyer": "['Bundesamt für Sicherheit in der Informationstechnik']",
-      "country": "DEU",
+      "buyer": "['Centrum Informatyki Resortu Finansów']",
+      "country": "POL",
       "cpv": [
-        "72000000",
-        "72000000"
+        "72250000",
+        "72611000",
+        "72260000",
+        "72300000",
+        "72230000",
+        "72250000",
+        "72260000",
+        "72611000",
+        "72300000",
+        "72230000"
       ],
       "deadline": null,
-      "id": "584449-2026",
+      "id": "587139-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Poland – System and support services – Świadczenie usług rozwoju i utrzymania Systemu SENT",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587139-2026"
+    },
+    {
+      "buyer": "['Stedin']",
+      "country": "NLD",
+      "cpv": [
+        "72000000",
+        "72222300",
+        "72268000",
+        "72000000",
+        "72222300",
+        "72268000"
+      ],
+      "deadline": null,
+      "id": "587176-2026",
       "matched_keywords": [
         "desarrollo de software",
         "desenvolvimento de software",
@@ -22,9 +52,865 @@
         "keyword"
       ],
       "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – IT services: consulting, software development, Internet and support – Projekt 1000 - \"Agentic AI: Prüfanforderungen für LLM-basierte agentische künstliche Intelligenz (PRAKI)\"",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584449-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Netherlands – IT services: consulting, software development, Internet and support – Digitale Whiteboard-applicatie en -ondersteuning",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587176-2026"
+    },
+    {
+      "buyer": "['Santa Casa da Misericórdia de Lisboa']",
+      "country": "PRT",
+      "cpv": [
+        "72000000",
+        "72000000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "587207-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Portugal – IT services: consulting, software development, Internet and support – Subscrição do licenciamento para Framework de desenvolvimento Outsystems",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587207-2026"
+    },
+    {
+      "buyer": "['Jyväskylän kaupunki']",
+      "country": "FIN",
+      "cpv": [
+        "72000000",
+        "48000000",
+        "72700000",
+        "72000000",
+        "48000000",
+        "72700000"
+      ],
+      "deadline": null,
+      "id": "587248-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "pmc",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Finland – IT services: consulting, software development, Internet and support – Kutsu perustietotekniikkapalvelujen (PTT-palvelut) hankinnan infotilaisuuteen",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587248-2026"
+    },
+    {
+      "buyer": "['MINISTRSTVO ZA DIGITALNO PREOBRAZBO']",
+      "country": "SVN",
+      "cpv": [
+        "72000000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "587347-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Slovenia – IT services: consulting, software development, Internet and support – Nadgradnja in vzdrževanje centralnega informacijskega sistema za avtentikacijo SI-CAS in z njim povezanih mobilnih aplikacij",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587347-2026"
+    },
+    {
+      "buyer": "['AS HOOLEKANDETEENUSED']",
+      "country": "EST",
+      "cpv": [
+        "72212450",
+        "72262000",
+        "72267000",
+        "72212450",
+        "72262000",
+        "72267000"
+      ],
+      "deadline": null,
+      "id": "587381-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Estonia – Time accounting or human resources software development services – Personali- ja palgaarvestuse tarkvara hange",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587381-2026"
+    },
+    {
+      "buyer": "['ΥΠΟΥΡΓΕΙΟ ΠΡΟΣΤΑΣΙΑΣ ΤΟΥ ΠΟΛΙΤΗ/ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΟΙΚΟΝΟΜΙΚΩΝ ΥΠΗΡΕΣΙΩΝ ΚΑΙ ΕΠΙΤΕΛΙΚΟΥ ΣΧΕΔΙΑΣΜΟΥ/ ΔΙΕΥΘΥΝΣΗ ΠΡΟΜΗΘΕΙΩΝ / Α΄ ΤΜΗΜΑ ΔΙΕΝΕΡΓΕΙΑΣ ΠΡΟΜΗΘΕΙΩΝ ΚΑΙ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ']",
+      "country": "GRC",
+      "cpv": [
+        "48000000",
+        "48800000",
+        "72000000",
+        "48000000",
+        "48800000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "587403-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Greece – Software package and information systems – Προμήθεια εξοπλισμού πληροφορικής για την υλοποίηση της Πράξης με τίτλο «ειδική δράση “επέκταση (roll-out) της ασφαλούς εφαρμογής SIENA για την ανταλλαγή πληροφοριών μεταξύ των κρατών μελών”»",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587403-2026"
+    },
+    {
+      "buyer": "['Středočeský kraj']",
+      "country": "CZE",
+      "cpv": [
+        "30121100",
+        "30125120",
+        "30125000",
+        "50313200",
+        "30232110",
+        "72000000",
+        "79800000",
+        "30121100",
+        "30125120",
+        "30125000"
+      ],
+      "deadline": null,
+      "id": "587413-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Czechia – Photocopiers – Realizace nového tiskového řešení na krajském úřadu Středočeského kraje",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587413-2026"
+    },
+    {
+      "buyer": "['Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V., IKTS']",
+      "country": "DEU",
+      "cpv": [
+        "30232100",
+        "42993200"
+      ],
+      "deadline": null,
+      "id": "587476-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – Printers and plotters – Aerosol-Jet-Printing-System (OV, PR1207141)",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587476-2026"
+    },
+    {
+      "buyer": "['Empresa Municipal de Transportes de Madrid, S.A.']",
+      "country": "ESP",
+      "cpv": [
+        "72267100",
+        "72000000",
+        "72267100",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "587500-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Spain – Maintenance of information technology software – Servicios de mantenimiento preventivo, correctivo, evolutivo e incorporación de nuevas funcionalidades a las aplicaciones móviles y sistemas de información al cliente.",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587500-2026"
+    },
+    {
+      "buyer": "['Aarhus Universitet']",
+      "country": "DNK",
+      "cpv": [
+        "72000000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "587621-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Denmark – IT services: consulting, software development, Internet and support – Logningssystem",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587621-2026"
+    },
+    {
+      "buyer": "['Escola Secundária Campos Melo']",
+      "country": "PRT",
+      "cpv": [
+        "30200000",
+        "30200000",
+        "30200000",
+        "30200000",
+        "30200000",
+        "30200000",
+        "30200000",
+        "30200000",
+        "30200000",
+        "30200000"
+      ],
+      "deadline": null,
+      "id": "587659-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Portugal – Computer equipment and supplies – Aquisição de Equipamento e Mobiliário no âmbito dos Centros Tecnológicos Especializados",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587659-2026"
+    },
+    {
+      "buyer": "['Växjö kommun']",
+      "country": "SWE",
+      "cpv": [
+        "72212160",
+        "72212160",
+        "48000000",
+        "48161000",
+        "48160000"
+      ],
+      "deadline": null,
+      "id": "587729-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Sweden – Library software development services – Bibliotekssystem med webb till Växjö kommuns folk- och skolbibliotek",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587729-2026"
+    },
+    {
+      "buyer": "['Auftraggeber sind die Republik Österreich (Bund), die Bundesbeschaffung GmbH sowie alle weiteren Auftraggeber gemäß der den Ausschreibungsunterlagen beiliegenden Kundenliste, im Vergabeverfahren alle vertreten durch die Bundesbeschaffung GmbH.', 'Bundesbeschaffung GmbH']",
+      "country": "AUT, AUT",
+      "cpv": [
+        "72000000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "587741-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Austria – IT services: consulting, software development, Internet and support – Cybersecurity 2027",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587741-2026"
+    },
+    {
+      "buyer": "['Dirección Económico-Financiera de ENAIRE']",
+      "country": "ESP",
+      "cpv": [
+        "72232000",
+        "72232000"
+      ],
+      "deadline": null,
+      "id": "587773-2026",
+      "matched_keywords": [
+        "custom software",
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Spain – Development of transaction processing and custom software – Mantenimiento, soporte, actualización e implantación de nuevos desarrollos en la herramienta de gestión de proyectos atm projects tool",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587773-2026"
+    },
+    {
+      "buyer": "['Institut Valencià de Cultura']",
+      "country": "ESP",
+      "cpv": [
+        "72212110",
+        "72416000",
+        "72510000",
+        "72212110",
+        "72416000",
+        "72510000"
+      ],
+      "deadline": null,
+      "id": "587788-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Spain – Point of sale (POS) software development services – Contratación del Servicio de venta multicanal de entradas para las actividades culturales que se organicen en los diferentes espacios gestionados por el Institut Valencià de Cultura-IVC.",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587788-2026"
+    },
+    {
+      "buyer": "['Bundesamt für Sicherheit in der Informationstechnik']",
+      "country": "DEU",
+      "cpv": [
+        "72000000",
+        "72000000"
+      ],
+      "deadline": "2026-09-11+02:00",
+      "id": "587912-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – KI im Secure Software Development Life Cycle (KISDL)",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587912-2026"
+    },
+    {
+      "buyer": "['Aarhus Kommune']",
+      "country": "DNK",
+      "cpv": [
+        "72000000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "587934-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Denmark – IT services: consulting, software development, Internet and support – Udbud af Learning Management System (LMS)",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587934-2026"
+    },
+    {
+      "buyer": "['Município de Mirandela']",
+      "country": "PRT",
+      "cpv": [
+        "34111100",
+        "34111100",
+        "34111100",
+        "34111100",
+        "34111100"
+      ],
+      "deadline": null,
+      "id": "587964-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Portugal – Estate cars – AQUISIÇÃO DE 9 VIATURAS LIGEIRAS NOVAS DE PASSAGEIROS E DE MERCADORIAS",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587964-2026"
+    },
+    {
+      "buyer": "['Elektroenergetické datové centrum, a.s.']",
+      "country": "CZE",
+      "cpv": [
+        "72268000",
+        "72222300",
+        "72000000",
+        "48000000",
+        "72263000",
+        "72261000",
+        "72267000",
+        "72227000",
+        "72268000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "587970-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Czechia – Software supply services – Návrh a implementace IT systému a poskytování souvisejících služeb",
+      "url": "https://ted.europa.eu/en/notice/-/detail/587970-2026"
+    },
+    {
+      "buyer": "['CONSILIUL JUDETEAN DOLJ']",
+      "country": "ROU",
+      "cpv": [
+        "72212218",
+        "72212218",
+        "72212900",
+        "72260000",
+        "80530000"
+      ],
+      "deadline": null,
+      "id": "588043-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Romania – License management software development services – Licențe (dezvoltare soft), instalare, configurare și punere în funcțiune, pregătirea personalului, inclusiv pentru securitate cibernetică pentru proiectul „Digitalizarea proceselor de asistență socială la nivelul Județului Dolj”, cod SMIS: 327613,",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588043-2026"
+    },
+    {
+      "buyer": "['Infraestruturas de Portugal, SA']",
+      "country": "PRT",
+      "cpv": [
+        "45233000",
+        "45233000"
+      ],
+      "deadline": null,
+      "id": "588050-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Portugal – Construction, foundation and surface works for highways, roads – Empreitada - EN218 - PONTE SOBRE O RIO MAÇÃS E ACESSOS - EXECUÇÃO",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588050-2026"
+    },
+    {
+      "buyer": "['EWN Entsorgungswerk für Nuklearanlagen GmbH']",
+      "country": "DEU",
+      "cpv": [
+        "72000000",
+        "72220000",
+        "79417000",
+        "72000000",
+        "72220000",
+        "79417000"
+      ],
+      "deadline": null,
+      "id": "588145-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Rahmenvertrag ISMS",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588145-2026"
+    },
+    {
+      "buyer": "['Gmina Miasta Gdańska']",
+      "country": "POL",
+      "cpv": [
+        "09332000",
+        "09331200",
+        "31154000",
+        "31434000",
+        "45310000",
+        "45315300",
+        "71320000",
+        "09332000",
+        "09331200",
+        "31434000"
+      ],
+      "deadline": null,
+      "id": "588194-2026",
+      "matched_keywords": [
+        "integracja systemów"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Poland – Solar installation – Zaprojektowanie, dostawa, montaż, uruchomienie oraz integracja systemów autonomii energetycznej dla obiektów użyteczności publicznej Gminy Miasta Gdańska",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588194-2026"
+    },
+    {
+      "buyer": "['Landkreis Meißen, Landratsamt, Rechts- und Kommunalamt, Vergabestelle']",
+      "country": "DEU",
+      "cpv": [
+        "32322000",
+        "72230000",
+        "32322000",
+        "72230000"
+      ],
+      "deadline": null,
+      "id": "588245-2026",
+      "matched_keywords": [
+        "Softwareentwicklung"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – Multimedia equipment – Softwareentwicklung VR und Kauf von VR Brillen",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588245-2026"
+    },
+    {
+      "buyer": "['Fáilte Ireland-National Tourism Development Authority']",
+      "country": "IRL",
+      "cpv": [
+        "72000000",
+        "79990000",
+        "72000000",
+        "79990000"
+      ],
+      "deadline": "2026-09-07+01:00",
+      "id": "588260-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Ireland – IT services: consulting, software development, Internet and support – Cybersecurity Specialist Services",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588260-2026"
+    },
+    {
+      "buyer": "['Tulli']",
+      "country": "FIN",
+      "cpv": [
+        "72000000",
+        "48000000",
+        "72100000",
+        "72260000",
+        "72268000",
+        "72000000",
+        "48000000",
+        "72100000",
+        "72260000",
+        "72268000"
+      ],
+      "deadline": "2026-09-16Z",
+      "id": "588267-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Finland – IT services: consulting, software development, Internet and support – Tulli - Projektiportaalin hankinta (SaaS -palvelu)",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588267-2026"
+    },
+    {
+      "buyer": "['Centrale Unica di Committenza dei Comuni di Pantelleria - Lampedusa e Linosa - Ustica e Salemi']",
+      "country": "ITA",
+      "cpv": [
+        "45230000",
+        "45230000"
+      ],
+      "deadline": null,
+      "id": "588270-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Italy – Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork – Procedura aperta per l'affidamento dell'appalto integrato per la redazione del progetto esecutivo e la realizzazione degli interventi di efficientamento idrico previsti nel programma del PNRR Missione 2 Componente 1 Investimento 3.1. \"Isole Verdi\" Tipologia III.C - Isola ",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588270-2026"
+    },
+    {
+      "buyer": "['IT-Services der Sozialversicherung GmbH']",
+      "country": "AUT",
+      "cpv": [
+        "72000000",
+        "72000000",
+        "72000000",
+        "72000000",
+        "72000000",
+        "72000000",
+        "72000000",
+        "72000000",
+        "72000000",
+        "72000000"
+      ],
+      "deadline": "2026-09-24+02:00, 2026-09-24+02:00, 2026-09-24+02:00, 2026-09-24+02:00, 2026-09-24+02:00",
+      "id": "588288-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Austria – IT services: consulting, software development, Internet and support – Infrastrukturnahe Dienstleistungen 2026",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588288-2026"
+    },
+    {
+      "buyer": "['Single Resolution Board (SRB)']",
+      "country": "BEL",
+      "cpv": [
+        "72000000",
+        "72000000",
+        "72000000",
+        "72000000"
+      ],
+      "deadline": "2026-09-01+02:00, 2026-09-01+02:00, 2026-09-01+02:00",
+      "id": "588354-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Belgium – IT services: consulting, software development, Internet and support – Development, consultancy and support for the Single Resolution Board (SRB) Information systems (IS) – Time and Means service provision",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588354-2026"
+    },
+    {
+      "buyer": "['Universitätsklinikum Schleswig-Holstein AöR']",
+      "country": "DEU",
+      "cpv": [
+        "48190000",
+        "66114000",
+        "38400000",
+        "34152000",
+        "32322000",
+        "48460000",
+        "72416000",
+        "38430000",
+        "48190000",
+        "72416000"
+      ],
+      "deadline": null,
+      "id": "588358-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – Educational software package – VR-Trainingsumgebung inkl. VR-Endgeräte, sowie Eyetracking",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588358-2026"
+    },
+    {
+      "buyer": "['.']",
+      "country": "AUT",
+      "cpv": [
+        "72000000",
+        "66133000",
+        "66132000",
+        "66130000",
+        "72000000",
+        "66133000",
+        "66132000",
+        "66130000"
+      ],
+      "deadline": null,
+      "id": "588379-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Austria – IT services: consulting, software development, Internet and support – Distribution Gutscheinkarten",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588379-2026"
+    },
+    {
+      "buyer": "['БЪЛГАРСКА НАРОДНА БАНКА']",
+      "country": "BGR",
+      "cpv": [
+        "72000000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "588398-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Bulgaria – IT services: consulting, software development, Internet and support – Проектиране, разработка и внедряване на изменения и допълнения в информационна система на Централен кредитен регистър в БНБ („Приложение за зареждане на данни на ИС на ЦКР“)",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588398-2026"
+    },
+    {
+      "buyer": "['Noord-Hollands Archief']",
+      "country": "NLD",
+      "cpv": [
+        "72000000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "588414-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Netherlands – IT services: consulting, software development, Internet and support – Managed Server Provider MSP (ICT)",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588414-2026"
+    },
+    {
+      "buyer": "['Dataport AöR']",
+      "country": "DEU",
+      "cpv": [
+        "48000000",
+        "72000000",
+        "48000000",
+        "72000000"
+      ],
+      "deadline": "2026-09-02+02:00",
+      "id": "588433-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – Software package and information systems – Schwachstellenscanner",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588433-2026"
+    },
+    {
+      "buyer": "['\"GÓRNOŚLĄSKO - ZAGŁĘBIOWSKA METROPOLIA\"']",
+      "country": "POL",
+      "cpv": [
+        "48813000",
+        "30210000",
+        "30211200",
+        "30236000",
+        "45310000",
+        "48000000",
+        "48610000",
+        "48611000",
+        "48700000",
+        "48800000"
+      ],
+      "deadline": null,
+      "id": "588466-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Poland – Passenger information system – Dostawa i montaż oraz utrzymanie Systemu Zliczania Pasażerów dla Operatorów ZTM",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588466-2026"
     },
     {
       "buyer": "['Hallsbergs kommun']",
@@ -41,8 +927,8 @@
         "72220000",
         "72250000"
       ],
-      "deadline": null,
-      "id": "584584-2026",
+      "deadline": "2026-09-16Z",
+      "id": "588479-2026",
       "matched_keywords": [
         "desarrollo de software",
         "desenvolvimento de software",
@@ -51,153 +937,25 @@
         "softwareontwikkeling",
         "szoftverfejlesztés"
       ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Sweden – IT services: consulting, software development, Internet and support – Verksamhetssystem inom social- och arbetsmarknadsförvaltningen",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584584-2026"
-    },
-    {
-      "buyer": "['Fimlab Laboratoriot Oy']",
-      "country": "FIN",
-      "cpv": [
-        "38000000",
-        "48000000",
-        "71900000",
-        "72000000",
-        "38000000",
-        "48000000",
-        "71900000",
-        "72000000"
-      ],
-      "deadline": "2026-08-31Z",
-      "id": "584628-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "pmc",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Finland – Laboratory, optical and precision equipments (excl. glasses) – Market Consultation: Digital pathology slide scanners",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584628-2026"
-    },
-    {
-      "buyer": "['SPITALUL UNIVERSITAR DE URGENTA BUCURESTI']",
-      "country": "ROU",
-      "cpv": [
-        "72212180",
-        "72212180"
-      ],
-      "deadline": null,
-      "id": "584631-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Romania – Medical software development services – Servicii de dezvoltare software Registrul Național de Oncologie Musculo-Scheletală",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584631-2026"
-    },
-    {
-      "buyer": "['EWN Entsorgungswerk für Nuklearanlagen GmbH']",
-      "country": "DEU",
-      "cpv": [
-        "72250000",
-        "72000000",
-        "72400000",
-        "72250000",
-        "72000000",
-        "72400000"
-      ],
-      "deadline": null,
-      "id": "584660-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – System and support services – Hosting SAP-Systeme",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584660-2026"
-    },
-    {
-      "buyer": "['UNIVERSITE DU LUXEMBOURG']",
-      "country": "LUX",
-      "cpv": [
-        "72000000",
-        "72415000",
-        "72413000",
-        "72000000",
-        "72415000",
-        "72413000"
-      ],
-      "deadline": null,
-      "id": "584716-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Luxembourg – IT services: consulting, software development, Internet and support – PNE 260029 - Continuation of hosting, licenses, development services and maintenance of uni.lu website",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584716-2026"
-    },
-    {
-      "buyer": "['KEOLIS LILLE ILEVIA']",
-      "country": "FRA",
-      "cpv": [
-        "45233292",
-        "35125300",
-        "32323500",
-        "72212518",
-        "45233292",
-        "35125300",
-        "32323500",
-        "72212518"
-      ],
-      "deadline": null,
-      "id": "584732-2026",
-      "matched_keywords": [],
       "matched_via": [
         "keyword"
       ],
       "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "France – Installation of safety equipment – Remplacement des encodeurs UTC et des caméras analogiques de la ligne 1 de métro et des parkings P+R",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584732-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Sweden – IT services: consulting, software development, Internet and support – Verksamhetssystem inom social- och arbetsmarknadsförvaltningen",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588479-2026"
     },
     {
-      "buyer": "['items GmbH & Co. KG']",
+      "buyer": "['HIL Heeresinstandsetzungslogistik GmbH']",
       "country": "DEU",
       "cpv": [
         "72000000",
-        "72220000",
-        "72227000",
-        "72250000",
-        "72260000",
+        "72200000",
         "72000000",
-        "72220000",
-        "72227000",
-        "72250000",
-        "72260000"
+        "72200000"
       ],
       "deadline": "2026-08-28+02:00",
-      "id": "584751-2026",
+      "id": "588537-2026",
       "matched_keywords": [
         "desarrollo de software",
         "desenvolvimento de software",
@@ -210,76 +968,23 @@
         "keyword"
       ],
       "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – IT services: consulting, software development, Internet and support – IT-Dienstleistungen zur Migration von Billing4us nach Grid4us",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584751-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – HIL Internetseite",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588537-2026"
     },
     {
-      "buyer": "['Junta de Contratación del Ministerio de Sanidad']",
-      "country": "ESP",
+      "buyer": "['INSTITUTUL NATIONAL DE SANATATE PUBLICA']",
+      "country": "ROU",
       "cpv": [
-        "72000000",
-        "72000000"
+        "72212422",
+        "72212422",
+        "72590000"
       ],
       "deadline": null,
-      "id": "584752-2026",
+      "id": "588690-2026",
       "matched_keywords": [
         "desarrollo de software",
         "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Spain – IT services: consulting, software development, Internet and support – Servicios de desarrollo en el ámbito de los casos de uso de analítica avanzada del Ministerio de Sanidad",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584752-2026"
-    },
-    {
-      "buyer": "['Monetra Pohjois-Savo Oy', 'Monetra Pirkanmaa Oy', 'Monetra Keski-Suomi Oy', 'Monetra Oy', 'Monetra Oulu Oy']",
-      "country": "FIN, FIN, FIN, FIN, FIN",
-      "cpv": [
-        "48000000",
-        "48450000",
-        "48810000",
-        "72000000",
-        "72212450",
-        "48000000",
-        "48450000",
-        "48810000",
-        "72000000",
-        "72212450"
-      ],
-      "deadline": "2026-09-04Z",
-      "id": "584755-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Finland – Software package and information systems – Monetra E19/2026 / Palkanlaskentajärjestelmän hankinta hyvinvointialueille Monetra-konserni",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584755-2026"
-    },
-    {
-      "buyer": "[\"Communauté d'agglomération Seine Eure\"]",
-      "country": "FRA",
-      "cpv": [
-        "72212900",
-        "72212900",
-        "72212900",
-        "72212900"
-      ],
-      "deadline": null,
-      "id": "584775-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
         "software development",
         "szoftverfejlesztés"
       ],
@@ -287,530 +992,23 @@
         "keyword"
       ],
       "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "France – Miscellaneous software development services and computer systems – Fourniture et animation d'une plateforme numérique favorisant le covoiturage pour les déplacements sur le territoire de la Communauté d'agglomération Seine-Eure",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584775-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Romania – Software development services suites – Servicii dezvoltare de software și aplicații informatice pentru registrul de screening al cancerului de sân şi Servicii informatice: gestionarea registrului şi asigurarea suportului operațional prin personal IT dedicat",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588690-2026"
     },
     {
-      "buyer": "['Województwo Podlaskie']",
-      "country": "POL",
-      "cpv": [
-        "72000000",
-        "72200000",
-        "72250000",
-        "72253000",
-        "72254100",
-        "72260000",
-        "72267000",
-        "72268000",
-        "48000000",
-        "48700000"
-      ],
-      "deadline": null,
-      "id": "584791-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Poland – IT services: consulting, software development, Internet and support – Dostawa, wdrożenie i utrzymanie Zintegrowanego Systemu Zarządzania w Urzędzie Marszałkowskim Województwa Podlaskiego w Białymstoku",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584791-2026"
-    },
-    {
-      "buyer": "['Kumla kommun']",
-      "country": "SWE",
-      "cpv": [
-        "72000000",
-        "48000000",
-        "72000000",
-        "72000000",
-        "48000000",
-        "48000000"
-      ],
-      "deadline": null,
-      "id": "584798-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Sweden – IT services: consulting, software development, Internet and support – Fastighetssystem",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584798-2026"
-    },
-    {
-      "buyer": "['Fluxys Belgium n.v.']",
-      "country": "BEL",
-      "cpv": [
-        "42965100",
-        "42965110",
-        "42961000",
-        "51500000",
-        "50800000",
-        "51100000",
-        "48921000",
-        "42965100",
-        "42965110",
-        "42961000"
-      ],
-      "deadline": null,
-      "id": "584806-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Belgium – Warehouse management system – Agreement for the Design, Supply and Implementation of an Automated Warehouse System – ICM 2.0 and a Call-off Contract for the Maintenance.",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584806-2026"
-    },
-    {
-      "buyer": "['Techniker Krankenkasse']",
-      "country": "DEU",
-      "cpv": [
-        "48000000",
-        "72200000",
-        "72232000",
-        "72268000",
-        "48000000",
-        "72200000",
-        "72232000",
-        "72268000"
-      ],
-      "deadline": null,
-      "id": "584896-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – Software package and information systems – BPM-Software",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584896-2026"
-    },
-    {
-      "buyer": "['Landratsamt Lörrach']",
+      "buyer": "['Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Innern, vertreten durch das Beschaffungsamt des BMI']",
       "country": "DEU",
       "cpv": [
         "72000000",
-        "72000000"
-      ],
-      "deadline": null,
-      "id": "584913-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – IT services: consulting, software development, Internet and support – IT-Supportvertrag an ausgewählten Schulen des Landkreises Lörrach",
-      "url": "https://ted.europa.eu/en/notice/-/detail/584913-2026"
-    },
-    {
-      "buyer": "['Kirkkonummen kunta']",
-      "country": "FIN",
-      "cpv": [
-        "30200000",
-        "30210000",
-        "30211200",
-        "30213000",
-        "30213100",
-        "30213300",
-        "30214000",
-        "30230000",
-        "30232000",
-        "30232110"
-      ],
-      "deadline": "2026-08-11Z",
-      "id": "585017-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Finland – Computer equipment and supplies – Perustietotekniikan palveluiden hankinta",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585017-2026"
-    },
-    {
-      "buyer": "['Seinäjoen Ammattikorkeakoulu Oy', 'Seinäjoen koulutuskuntayhtymä (SEDU)', 'Centria-ammattikorkeakoulu Oy', 'Satakunnan ammattikorkeakoulu']",
-      "country": "FIN, FIN, FIN, FIN",
-      "cpv": [
-        "72000000",
-        "48730000",
-        "48732000",
-        "72000000",
-        "48730000",
-        "48732000"
-      ],
-      "deadline": null,
-      "id": "585044-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Finland – IT services: consulting, software development, Internet and support – SIEM ja SOC-palvelu",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585044-2026"
-    },
-    {
-      "buyer": "['HUS-yhtymä']",
-      "country": "FIN",
-      "cpv": [
-        "72000000",
-        "72212931",
-        "72000000",
-        "72212931"
-      ],
-      "deadline": null,
-      "id": "585088-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Finland – IT services: consulting, software development, Internet and support – e-Forms / EU / ICT / Tarjouspyyntö Contact Center -ohjelmisto ohjelmistopalveluna ja siihen liittyvät palvelut",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585088-2026"
-    },
-    {
-      "buyer": "['Agência para a Integração, Migrações e Asilo, IP']",
-      "country": "PRT",
-      "cpv": [
-        "72230000",
-        "72230000"
-      ],
-      "deadline": null,
-      "id": "585138-2026",
-      "matched_keywords": [
-        "custom software",
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Portugal – Custom software development services – Aquisição de serviços para desenho e implementação de solução tecnológica para a gestão do fluxo de autorizações de residência",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585138-2026"
-    },
-    {
-      "buyer": "['Belastingdienst, IUC Belastingdienst']",
-      "country": "NLD",
-      "cpv": [
-        "72000000",
-        "72000000",
-        "72000000"
-      ],
-      "deadline": "2026-09-10+02:00, 2026-09-10+02:00",
-      "id": "585140-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Netherlands – IT services: consulting, software development, Internet and support – IBM, Red Hat & SAP licentie expertise",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585140-2026"
-    },
-    {
-      "buyer": "['MINISTRSTVO ZA KMETIJSTVO, UPRAVA REPUBLIKE SLOVENIJE ZA VARNO HRANO, VETERINARSTVO IN VARSTVO RASTLIN']",
-      "country": "SVN",
-      "cpv": [
-        "72000000",
-        "72267100",
-        "72000000",
-        "72267100"
-      ],
-      "deadline": "2026-09-10+02:00",
-      "id": "585176-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Slovenia – IT services: consulting, software development, Internet and support – Vzdrževanje in nadgradnja novega IS inšpektorjev UVHVVR (N-ISI)",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585176-2026"
-    },
-    {
-      "buyer": "['Commission for Communications Regulation']",
-      "country": "IRL",
-      "cpv": [
-        "64000000",
-        "72000000",
-        "64000000",
-        "72000000"
-      ],
-      "deadline": "2026-06-30+01:00",
-      "id": "585198-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Ireland – Postal and telecommunications services – ***CANCELLED*** ComReg T21673 Request for Tenders (RFT) for the provision of a solutions architect and project manager to ComReg in relation to nuisance communications",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585198-2026"
-    },
-    {
-      "buyer": "['Powiat Zawierciański - Zarząd Dróg Powiatowych w Zawierciu']",
-      "country": "POL",
-      "cpv": [
-        "72212000",
-        "48600000",
-        "72268000",
-        "72263000",
-        "72265000",
-        "48000000",
-        "79632000",
-        "31700000",
-        "71355000",
-        "72212000"
-      ],
-      "deadline": null,
-      "id": "585222-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Poland – Programming services of application software – Cyfryzacja Zarządu Dróg Powiatowych – Powiat Zawierciański",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585222-2026"
-    },
-    {
-      "buyer": "['ΔΗΜΟΣ ΗΡΑΚΛΕΙΟΥ ΚΡΗΤΗΣ ΟΡΓΑΝΙΣΜΟΣ ΤΟΠΙΚΗΣ ΑΥΤΟΔΙΟΙΚΗΣΗΣ']",
-      "country": "GRC",
-      "cpv": [
-        "72262000",
-        "32322000",
-        "72262000",
-        "32322000",
-        "32322000",
-        "72262000"
-      ],
-      "deadline": null,
-      "id": "585275-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Greece – Software development services – Ψηφιακές Εφαρμογές Ανάδειξης του Γαστρονομικού Πλούτου του Ηρακλείου",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585275-2026"
-    },
-    {
-      "buyer": "['Service public de wallonie']",
-      "country": "BEL",
-      "cpv": [
-        "72212326",
-        "72212326"
-      ],
-      "deadline": null,
-      "id": "585285-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Belgium – Mapping software development services – Développement d’un outil de prévision et de notification de risques de crues soudaines par ruissellement",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585285-2026"
-    },
-    {
-      "buyer": "['Stadt Ravensburg, Hauptamt - Abteilung Organisation']",
-      "country": "DEU",
-      "cpv": [
-        "72000000",
-        "72416000",
-        "72212450",
-        "72000000",
-        "72416000",
-        "72212450"
-      ],
-      "deadline": null,
-      "id": "585305-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "veat",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – IT services: consulting, software development, Internet and support – Einführung eines neuen Zeiterfassungssystems",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585305-2026"
-    },
-    {
-      "buyer": "['Centrum Zakupów dla Sądownictwa Instytucja Gospodarki Budżetowej reprezentująca Sąd Apelacyjny w Krakowie']",
-      "country": "POL",
-      "cpv": [
-        "48517000",
-        "48600000",
-        "48500000",
-        "72267000",
         "72220000",
+        "72266000",
         "72000000",
-        "48517000",
-        "48600000",
-        "48500000",
-        "72000000"
-      ],
-      "deadline": null,
-      "id": "585332-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Poland – IT software package – Umowa ramowa na dostawę oprogramowania Vmware lub równoważnego na rzecz sądów powszechnych",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585332-2026"
-    },
-    {
-      "buyer": "['Region Syddanmark', 'Region Midtjylland', 'Region Nordjylland']",
-      "country": "DNK, DNK, DNK",
-      "cpv": [
-        "72000000",
-        "72210000",
-        "72230000",
-        "72240000",
-        "72250000",
-        "72260000",
-        "72261000",
-        "72262000",
-        "72263000",
-        "72265000"
-      ],
-      "deadline": "2026-09-14Z",
-      "id": "585352-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Denmark – IT services: consulting, software development, Internet and support – Anskaffelse, implementering og vedligeholdelse af billeddiagnostisk løsning",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585352-2026"
-    },
-    {
-      "buyer": "['GSI Helmholtzzentrum für Schwerionenforschung GmbH', 'FAIR - Facility for Antiproton and Ion Research in Europe GmbH']",
-      "country": "DEU, DEU",
-      "cpv": [
-        "72232000",
         "72220000",
-        "72240000",
-        "72232000",
-        "72220000",
-        "72240000"
-      ],
-      "deadline": null,
-      "id": "585363-2026",
-      "matched_keywords": [
-        "custom software",
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – Development of transaction processing and custom software – Zur Digitalisierung der Lagerlogistik und Implementierung eines Anlageninventursystems auf Workflowbasis",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585363-2026"
-    },
-    {
-      "buyer": "[\"COMITE D'ORGANISATION DES JEUX OLYMPIQUES ET PARALYMPIQUES D'HIVER DES ALPES FRANCAISES 2030\"]",
-      "country": "FRA",
-      "cpv": [
-        "72000000",
-        "72266000",
-        "72266000",
-        "72266000",
         "72266000"
       ],
       "deadline": null,
-      "id": "585365-2026",
+      "id": "588695-2026",
       "matched_keywords": [
         "desarrollo de software",
         "desenvolvimento de software",
@@ -823,482 +1021,68 @@
         "keyword"
       ],
       "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "France – IT services: consulting, software development, Internet and support – ERP SIRH",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585365-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Dienstleistungen im SAP-Umfeld HANA",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588695-2026"
     },
     {
-      "buyer": "['Region Västerbotten']",
-      "country": "SWE",
+      "buyer": "['Compañía Española de Reafianzamiento S.M.E., S.A.']",
+      "country": "ESP",
       "cpv": [
-        "48000000",
-        "48000000",
-        "72000000",
-        "48400000",
-        "48450000",
-        "48490000"
-      ],
-      "deadline": null,
-      "id": "585388-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Sweden – Software package and information systems – Förmånsportal",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585388-2026"
-    },
-    {
-      "buyer": "['BANQUE DE FRANCE']",
-      "country": "FRA",
-      "cpv": [
-        "72000000",
-        "72000000"
-      ],
-      "deadline": null,
-      "id": "585405-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "France – IT services: consulting, software development, Internet and support – SUPPLY OF NETWORK HARDWARE SECURITY MODULES (HSM) FOR EUROPEAN PROJECT",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585405-2026"
-    },
-    {
-      "buyer": "['National Treasury Management Agency (NTMA)']",
-      "country": "IRL",
-      "cpv": [
-        "72000000",
-        "72260000",
-        "48000000",
-        "72000000",
-        "72260000",
-        "48000000"
-      ],
-      "deadline": "2026-09-07+01:00",
-      "id": "585412-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Ireland – IT services: consulting, software development, Internet and support – 2026PR056 Request for Tenders (RFT) for the provision of Program Technical Support Services for existing Oracle Licenses to the NTMA",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585412-2026"
-    },
-    {
-      "buyer": "['Instituto de Informática, I.P.']",
-      "country": "PRT",
-      "cpv": [
-        "30210000",
-        "48600000",
-        "72000000",
-        "72600000",
-        "30210000",
-        "30210000",
-        "48600000",
-        "30210000",
-        "72610000"
-      ],
-      "deadline": null,
-      "id": "585447-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Portugal – Data-processing machines (hardware) – Renovação tecnológica e reforço de licenciamento da infraestrutura Oracle (2026-2030)",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585447-2026"
-    },
-    {
-      "buyer": "['Politiets fellestjenester', 'Politiets fellestjenester', 'Politiets Fellestjenester']",
-      "country": "NOR, NOR, NOR",
-      "cpv": [
-        "48000000",
-        "48218000",
-        "48900000",
-        "72000000",
-        "72260000",
         "72267000",
-        "72268000",
-        "48000000",
-        "48218000",
-        "48900000"
-      ],
-      "deadline": null,
-      "id": "585468-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "pin-only",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Norway – Software package and information systems – RFI - Procurement of a Lisence solution provider",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585468-2026"
-    },
-    {
-      "buyer": "['Resíduos do Nordeste, EIM, SA']",
-      "country": "PRT",
-      "cpv": [
-        "34144510",
-        "34144510"
-      ],
-      "deadline": null,
-      "id": "585501-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Portugal – Vehicles for refuse – Fornecimento de Viaturas Elétricas para o Serviço de Recolha Seletiva de Resíduos Verdes",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585501-2026"
-    },
-    {
-      "buyer": "['AWO Landesverband Berlin e.V.', 'AWO Bundesverband e.V.', 'AWO pro:mensch gGmbH']",
-      "country": "DEU, DEU, DEU",
-      "cpv": [
-        "72000000",
-        "50324000",
-        "72000000",
-        "72000000",
-        "72000000"
-      ],
-      "deadline": null,
-      "id": "585568-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – IT services: consulting, software development, Internet and support – IT-Dienstleister in drei Losen",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585568-2026"
-    },
-    {
-      "buyer": "['Gemeente Goeree-Overflakkee']",
-      "country": "NLD",
-      "cpv": [
-        "72000000",
-        "48000000",
-        "72000000",
-        "48000000"
-      ],
-      "deadline": "2026-10-16+02:00",
-      "id": "585580-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Netherlands – IT services: consulting, software development, Internet and support – Europees openbare aanbesteding burgerzaken software",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585580-2026"
-    },
-    {
-      "buyer": "['Nynäshamn kommun']",
-      "country": "SWE",
-      "cpv": [
-        "72000000",
-        "48300000",
-        "48330000",
-        "48332000",
-        "72000000",
-        "72212300",
-        "72212330",
-        "72212332",
-        "72000000",
-        "48300000"
-      ],
-      "deadline": null,
-      "id": "585598-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Sweden – IT services: consulting, software development, Internet and support – Schemaläggningsverktyg",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585598-2026"
-    },
-    {
-      "buyer": "['Upplands Väsby kommun']",
-      "country": "SWE",
-      "cpv": [
-        "71310000",
-        "71000000",
-        "71312000",
-        "71313000",
-        "71313400",
-        "71313410",
-        "71313420",
-        "71313430",
-        "71313440",
-        "71313450"
-      ],
-      "deadline": null,
-      "id": "585626-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Sweden – Consultative engineering and construction services – Ramavtal Tekniska konsulter Fastighet, teknikområde 14 – 23",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585626-2026"
-    },
-    {
-      "buyer": "['AB „Miesto gijos“ (PV)']",
-      "country": "LTU",
-      "cpv": [
-        "45232140",
-        "45000000",
-        "45232140",
-        "45000000"
-      ],
-      "deadline": null,
-      "id": "585775-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Lithuania – District-heating mains construction work – VILNIAUS MIESTO GRIGIŠKIŲ ŠILUMOS TIEKIMO TINKLŲ NUO ŠK 09102 IKI ŠK 09210-05 (VILNIAUS G., KOVO 11-OSIOS G., ŠVIESOS G., KUNIGIŠKIŲ G., LENTVARIO G., ŠALTINIO G.) REKONSTRAVIMO RANGOS DARBŲ PIRKIMAS",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585775-2026"
-    },
-    {
-      "buyer": "['Muzeum Górnictwa Węglowego w Zabrzu']",
-      "country": "POL",
-      "cpv": [
-        "32321200",
-        "32322000",
-        "39154000",
-        "39290000",
-        "30200000",
-        "31000000",
-        "32321300",
-        "32342410",
-        "32353000",
-        "32573000"
-      ],
-      "deadline": null,
-      "id": "585814-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Poland – Audio-visual equipment – Aranżacja i wykonanie tras turystycznych w podziemiach Sztolni Królowa Luiza.",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585814-2026"
-    },
-    {
-      "buyer": "['NRW.BANK AöR']",
-      "country": "DEU",
-      "cpv": [
-        "72000000",
-        "72000000"
-      ],
-      "deadline": null,
-      "id": "585815-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – IT services: consulting, software development, Internet and support – Rahmenvertrag SAP BW BPC SAC (Los 1)",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585815-2026"
-    },
-    {
-      "buyer": "['Bundesamt für Auswärtige Angelegenheiten']",
-      "country": "DEU",
-      "cpv": [
-        "72000000",
-        "72300000",
-        "72400000",
-        "72000000",
-        "72300000",
-        "72400000"
-      ],
-      "deadline": null,
-      "id": "585855-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – IT services: consulting, software development, Internet and support – AA - Beschaffung von Public Cloud-Leistungen",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585855-2026"
-    },
-    {
-      "buyer": "['Fjársýsla ríkisins', 'National Commissioner of the Icelandic Police']",
-      "country": "ISL, ISL",
-      "cpv": [
-        "72000000",
-        "72510000",
-        "72000000",
-        "72510000"
-      ],
-      "deadline": null,
-      "id": "585870-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "veat",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Iceland – IT services: consulting, software development, Internet and support – VEAT - Supply of consultancy services with regards to development and implementation of EU Smart Borders",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585870-2026"
-    },
-    {
-      "buyer": "['Ministerstvo zdravotníctva Slovenskej republiky']",
-      "country": "SVK",
-      "cpv": [
-        "72200000",
-        "72262000",
-        "48000000",
-        "48600000",
-        "48800000",
+        "72212100",
+        "72212500",
+        "72232000",
+        "72261000",
+        "72267100",
         "72267000",
-        "72600000",
-        "72268000",
-        "48810000",
-        "72261000"
+        "72212100",
+        "72212500",
+        "72232000"
       ],
       "deadline": null,
-      "id": "585896-2026",
+      "id": "588771-2026",
       "matched_keywords": [],
       "matched_via": [
         "keyword"
       ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Slovakia – Software programming and consultancy services – Zabezpečenie licencie, servisných úkonov a rozvoj prevádzky - IS Kategorizácia pre MZ SR",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585896-2026"
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Spain – Software maintenance and repair services – Prestación de los servicios informáticos de soporte y gestión de la infraestructura ERP G3-CERSA de los entornos y servicios consumidos para CERSA de los ejercicios 2026, 2027 y 2028",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588771-2026"
     },
     {
-      "buyer": "['SĄD APELACYJNY W GDAŃSKU']",
-      "country": "POL",
+      "buyer": "['Consejería de Educación de la Junta de Castilla y León']",
+      "country": "ESP",
       "cpv": [
-        "48000000",
-        "72000000",
-        "72268000",
-        "72263000",
-        "72253200",
-        "79632000",
-        "48000000",
-        "72000000",
-        "72263000",
-        "72253200"
+        "72212160",
+        "72212160"
       ],
       "deadline": null,
-      "id": "585909-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Poland – Software package and information systems – Dostawa i wdrożenie systemu przeznaczonego do kompleksowej obsługi kuratorskiej służby sądowej wraz z Portalem na potrzeby sądów apelacji gdańskiej",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585909-2026"
-    },
-    {
-      "buyer": "['Tyresö kommun']",
-      "country": "SWE",
-      "cpv": [
-        "72000000",
-        "72000000"
-      ],
-      "deadline": null,
-      "id": "585962-2026",
+      "id": "588778-2026",
       "matched_keywords": [
         "desarrollo de software",
         "desenvolvimento de software",
         "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
+        "software development"
       ],
       "matched_via": [
         "keyword"
       ],
       "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Sweden – IT services: consulting, software development, Internet and support – Ramavtal RPA konsulter service och support",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585962-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Spain – Library software development services – Servicio de lectoescritura digital escolar para centros docentes públicos de la Comunidad de Castilla y León a través de una plataforma (cursos 2026-2027 y 2027-2028)",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588778-2026"
     },
     {
-      "buyer": "['Deutscher Akademischer Austauschdienst e. V.']",
-      "country": "DEU",
+      "buyer": "['Ministerium für Arbeit, Gesundheit und Soziales des Landes Nordrhein-Westfalen (MAGS)', 'Land Baden-Württemberg, vertreten durch das Ministerium für Kultus, Jugend und Sport', 'Land Berlin, vertreten durch die Senatsverwaltung für Bildung, Jugend und Familie', 'Land Brandenburg, vertreten durch das Ministerium für Bildung, Jugend und Sport (MBJS)', 'Land Hessen, vertreten durch das Hessische Min",
+      "country": "DEU, DEU, DEU, DEU, DEU",
       "cpv": [
         "72000000",
         "72000000"
       ],
       "deadline": null,
-      "id": "585976-2026",
+      "id": "588804-2026",
       "matched_keywords": [
         "desarrollo de software",
         "desenvolvimento de software",
@@ -1311,74 +1095,442 @@
         "keyword"
       ],
       "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – IT services: consulting, software development, Internet and support – Rahmenvertrag für Dienstleistungen in den Bereichen Usability, User Experience und kontinuierliche Erfolgsmessung",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585976-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany, Luxembourg – IT services: consulting, software development, Internet and support – Pflege und Weiterentwicklung der berufswahlapp",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588804-2026"
     },
     {
-      "buyer": "['Westdeutscher Rundfunk Köln']",
-      "country": "DEU",
-      "cpv": [
-        "32000000",
-        "72268000",
-        "72000000",
-        "72260000",
-        "32000000",
-        "72268000",
-        "72000000",
-        "72260000"
-      ],
-      "deadline": "2026-08-20+02:00",
-      "id": "585990-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – Radio, television, communication, telecommunication and related equipment – Audio-Netcast-Bundesliga-Berichterstattung 2027-2029",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585990-2026"
-    },
-    {
-      "buyer": "['Jyväskylän yliopisto', 'Jyväskylän Ammattikorkeakoulu Oy']",
-      "country": "FIN, FIN",
-      "cpv": [
-        "72000000",
-        "72200000",
-        "72000000",
-        "72200000"
-      ],
-      "deadline": null,
-      "id": "585998-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Finland – IT services: consulting, software development, Internet and support – Ohjelmisto- ja järjestelmäkehityksen asiantuntijapalvelujen puitejärjestely",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585998-2026"
-    },
-    {
-      "buyer": "['Státní ústav pro kontrolu léčiv']",
+      "buyer": "['Ministerstvo vnitra']",
       "country": "CZE",
       "cpv": [
+        "48810000",
+        "72263000",
         "72230000",
+        "72268000",
+        "48000000",
+        "72253200",
+        "72212610",
         "72261000",
-        "72267000",
-        "72230000",
-        "72261000",
+        "72222300",
         "72267000"
       ],
       "deadline": null,
-      "id": "585999-2026",
+      "id": "588844-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-modif",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Czechia – Information systems – Dodávka a implementace Portálu Obce.gov.cz",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588844-2026"
+    },
+    {
+      "buyer": "['Agencia para la Modernización Tecnológica de Galicia']",
+      "country": "ESP",
+      "cpv": [
+        "72000000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "588853-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Spain – IT services: consulting, software development, Internet and support – AMT-2026-0022: Servicio de evolución, mantenimiento y soporte especializado de las aplicaciones móviles en el campo de turismo",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588853-2026"
+    },
+    {
+      "buyer": "['Fővárosi Csatornázási Művek Zrt.']",
+      "country": "HUN",
+      "cpv": [
+        "48820000",
+        "48820000"
+      ],
+      "deadline": null,
+      "id": "588873-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Hungary – Servers – Informatikai hardvereszközök beszerzése",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588873-2026"
+    },
+    {
+      "buyer": "['Národní agentura pro komunikační a informační technologie, s. p.']",
+      "country": "CZE",
+      "cpv": [
+        "72000000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "588915-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Czechia – IT services: consulting, software development, Internet and support – Rámcová dohoda na zajištění IT rolí pro podporu produktů Microsoft II",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588915-2026"
+    },
+    {
+      "buyer": "['Centrale Unica di Committenza dei Comuni di Pantelleria - Lampedusa e Linosa - Ustica e Salemi']",
+      "country": "ITA",
+      "cpv": [
+        "45230000",
+        "45230000"
+      ],
+      "deadline": null,
+      "id": "588955-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Italy – Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork – Procedura aperta per l'affidamento dell'appalto integrato per la redazione del progetto esecutivo e la realizzazione degli interventi di efficientamento idrico previsti nel programma del PNRR Missione 2 Componente 1 Investimento 3.1. \"Isole Verdi\" Tipologia III.C - Isola ",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588955-2026"
+    },
+    {
+      "buyer": "['Flughafen Berlin Brandenburg GmbH']",
+      "country": "DEU",
+      "cpv": [
+        "72212121",
+        "72212121"
+      ],
+      "deadline": null,
+      "id": "588963-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – Air traffic control software development services – Erneuerung der Befeuerungssteuerung (BUES) einschl. Wartung und Weiterentwicklung",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588963-2026"
+    },
+    {
+      "buyer": "['Dirección General de Mutua Montañesa']",
+      "country": "ESP",
+      "cpv": [
+        "72000000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "588974-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Spain – IT services: consulting, software development, Internet and support – Contratación del Servicio para la Implantación, Evolución y Soporte de un Sistema Corporativo de Agentes de Inteligencia Artificial Generativa basados en modelos de lenguaje (LLM) para Mutua Montañesa",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588974-2026"
+    },
+    {
+      "buyer": "['ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ']",
+      "country": "GRC",
+      "cpv": [
+        "72212781",
+        "72267000",
+        "72212781"
+      ],
+      "deadline": null,
+      "id": "588982-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Greece – System management software development services – \"ΑΝΑΠΤΥΞΗ ΝΕΟΥ ΕΝΟΠΟΙΗΜΕΝΟΥ ΟΛΟΚΛΗΡΩΜΕΝΟΥ ΠΛΗΡΟΦΟΡΙΑΚΟΥ ΣΥΣΤΗΜΑΤΟΣ ΦΟΡΟΛΟΓΙΑΣ ΤΗΣ Α.Α.Δ.Ε.\"",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588982-2026"
+    },
+    {
+      "buyer": "['Department of Public Expenditure Infrastructure Public Service Reform and Digitalisation']",
+      "country": "IRL",
+      "cpv": [
+        "72000000",
+        "48000000",
+        "72000000",
+        "48000000"
+      ],
+      "deadline": "2026-09-15+01:00",
+      "id": "588999-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Ireland – IT services: consulting, software development, Internet and support – CFT for the Provision of an Employee Assistance Service Client Case Management Solution for the CSEAS, Department of Public Expenditure Infrastructure Public Service Reform and Digitalisation",
+      "url": "https://ted.europa.eu/en/notice/-/detail/588999-2026"
+    },
+    {
+      "buyer": "['Deutsche Forschungsgemeinschaft e.V.']",
+      "country": "DEU",
+      "cpv": [
+        "72268000",
+        "72000000",
+        "48100000",
+        "72000000",
+        "72268000",
+        "48100000"
+      ],
+      "deadline": null,
+      "id": "589061-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – Software supply services – Computer-Aided Facility Management System (CAFM)",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589061-2026"
+    },
+    {
+      "buyer": "['SURF B.V.']",
+      "country": "NLD",
+      "cpv": [
+        "79620000",
+        "79620000",
+        "79620000",
+        "79620000",
+        "79620000",
+        "79620000",
+        "79620000",
+        "79620000",
+        "79620000",
+        "79620000"
+      ],
+      "deadline": null,
+      "id": "589114-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Netherlands – Supply services of personnel including temporary staff – Inhuur extern personeel op uitzend-, detacherings- en ZZP-basis",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589114-2026"
+    },
+    {
+      "buyer": "['Województwo Śląskie']",
+      "country": "POL",
+      "cpv": [
+        "72250000",
+        "72240000",
+        "72230000",
+        "72250000",
+        "72240000",
+        "72230000"
+      ],
+      "deadline": null,
+      "id": "589153-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Poland – System and support services – Usługa asysty technicznej narzędzia CMS wraz z jego rozbudową",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589153-2026"
+    },
+    {
+      "buyer": "['AOK Bayern - Die Gesundheitskasse']",
+      "country": "DEU",
+      "cpv": [
+        "72000000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "589164-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Beschaffung einer webbasierten Rückmeldeplattform für pflegende Angehörige zur Stärkung sozialräumlicher Ressourcen",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589164-2026"
+    },
+    {
+      "buyer": "['Sestřička SOS, z. ú.']",
+      "country": "CZE",
+      "cpv": [
+        "72000000",
+        "72260000",
+        "72263000",
+        "72261000",
+        "72000000",
+        "72260000",
+        "72263000",
+        "72261000"
+      ],
+      "deadline": null,
+      "id": "589176-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Czechia – IT services: consulting, software development, Internet and support – Sestřička SOS, z. ú. – pořízení materiálně-technického vybavení pro tísňovou péči – tísňový pult",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589176-2026"
+    },
+    {
+      "buyer": "['Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Innern, vertreten durch das Beschaffungsamt des BMI']",
+      "country": "DEU",
+      "cpv": [
+        "72000000",
+        "72220000",
+        "72266000",
+        "72000000",
+        "72220000",
+        "72266000"
+      ],
+      "deadline": null,
+      "id": "589188-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Dienstleistungen im SAP-Umfeld HANA",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589188-2026"
+    },
+    {
+      "buyer": "['ZAKŁAD GOSPODARKI WODNO-ŚCIEKOWEJ GMINY TRZEBOWISKO']",
+      "country": "POL",
+      "cpv": [
+        "48000000",
+        "48810000",
+        "31122000",
+        "48000000",
+        "48810000",
+        "31122000",
+        "48600000",
+        "35120000",
+        "32420000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "589194-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Poland – Software package and information systems – Wzmocnienie cyberbezpieczeństwa infrastruktury wodociągowej w Gminie Trzebownisko",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589194-2026"
+    },
+    {
+      "buyer": "['Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Innern, vertreten durch das Beschaffungsamt des BMI']",
+      "country": "DEU",
+      "cpv": [
+        "72000000",
+        "72220000",
+        "72266000",
+        "72000000",
+        "72220000",
+        "72266000"
+      ],
+      "deadline": null,
+      "id": "589199-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Dienstleistungen im SAP-Umfeld HANA",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589199-2026"
+    },
+    {
+      "buyer": "['Sąd Apelacyjny we Wrocławiu']",
+      "country": "POL",
+      "cpv": [
+        "72230000",
+        "80500000",
+        "72230000",
+        "80500000"
+      ],
+      "deadline": null,
+      "id": "589230-2026",
       "matched_keywords": [
         "custom software",
         "desarrollo de software",
@@ -1389,462 +1541,28 @@
       "matched_via": [
         "keyword"
       ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Czechia – Custom software development services – SÚKL VZ15/2026 - Vývoj a zajištění podpory Informačního systému Centrální evidence subjektů a plných mocí",
-      "url": "https://ted.europa.eu/en/notice/-/detail/585999-2026"
-    },
-    {
-      "buyer": "['Stadt Winterthur Informatikdienste']",
-      "country": "CHE",
-      "cpv": [
-        "72000000",
-        "72000000",
-        "72200000"
-      ],
-      "deadline": null,
-      "id": "586021-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Switzerland – IT services: consulting, software development, Internet and support – SAP Basis Dienstleistungen",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586021-2026"
-    },
-    {
-      "buyer": "['Landkreis Schaumburg - Vergabestelle']",
-      "country": "DEU",
-      "cpv": [
-        "72000000",
-        "72510000",
-        "72512000",
-        "72000000",
-        "72510000",
-        "72512000"
-      ],
-      "deadline": "2026-09-16+02:00",
-      "id": "586028-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – IT services: consulting, software development, Internet and support – Dokumentenmanagementsystem für die Stadtverwaltung",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586028-2026"
-    },
-    {
-      "buyer": "['Stichting OPSPOOR']",
-      "country": "NLD",
-      "cpv": [
-        "72000000",
-        "30200000",
-        "72000000",
-        "30200000",
-        "32320000",
-        "72250000",
-        "72315000",
-        "72700000"
-      ],
-      "deadline": null,
-      "id": "586087-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
       "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Netherlands – IT services: consulting, software development, Internet and support – ICT Beheer + levering hardware + levering touchscreens",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586087-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Poland – Custom software development services – Świadczenie usług wsparcia, modyfikacji i rozwoju Zintegrowanego Systemu Rachunkowości i Kadr (ZSRK) w okresie 48 miesięcy.",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589230-2026"
     },
     {
-      "buyer": "['VALDEVY']",
-      "country": "FRA",
-      "cpv": [
-        "72000000",
-        "72000000"
-      ],
-      "deadline": null,
-      "id": "586105-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "France – IT services: consulting, software development, Internet and support – FOURNITURE, INTEGRATION ET MAINTENANCE D'UNE PLATEFORME SI-RH POUR LES BESOINS DE VALDEVY",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586105-2026"
-    },
-    {
-      "buyer": "['European Food Safety Authority']",
-      "country": "ITA",
-      "cpv": [
-        "72000000",
-        "72000000"
-      ],
-      "deadline": null,
-      "id": "586113-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Italy – IT services: consulting, software development, Internet and support – SPOC, IT RUN and IT Development, Managed and Corporate Services",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586113-2026"
-    },
-    {
-      "buyer": "['Region Jönköpings län']",
-      "country": "SWE",
-      "cpv": [
-        "72000000",
-        "48000000",
-        "48100000",
-        "72000000",
-        "48000000",
-        "48100000"
-      ],
-      "deadline": null,
-      "id": "586170-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Sweden – IT services: consulting, software development, Internet and support – Kemikaliehanteringssystem",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586170-2026"
-    },
-    {
-      "buyer": "['Gemeente Meppel']",
-      "country": "NLD",
-      "cpv": [
-        "72000000",
-        "72260000",
-        "72000000",
-        "72260000"
-      ],
-      "deadline": "2026-09-25+02:00",
-      "id": "586211-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Netherlands – IT services: consulting, software development, Internet and support – Softwarebroker",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586211-2026"
-    },
-    {
-      "buyer": "['Alcaldía del Ayuntamiento de Güímar']",
+      "buyer": "['Alcaldía del Ayuntamiento de Algeciras']",
       "country": "ESP",
       "cpv": [
         "72000000",
         "72200000",
+        "72210000",
+        "72211000",
+        "72212000",
+        "72212311",
+        "72212312",
         "72000000",
-        "72200000"
-      ],
-      "deadline": null,
-      "id": "586217-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Spain – IT services: consulting, software development, Internet and support – Contratación de una plataforma de administración electrónica en modalidad Software como Servicio (SaaS) que facilite a esta entidad la adopción de un sistema de tramitación administrativa conforme al marco legal vigente",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586217-2026"
-    },
-    {
-      "buyer": "['Lietuvos kalėjimų tarnyba']",
-      "country": "LTU",
-      "cpv": [
-        "33124000",
-        "33124000"
-      ],
-      "deadline": null,
-      "id": "586218-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Lithuania – Diagnostics and radiodiagnostic devices and supplies – Vienkartiniai testai narkotinių medžiagų nustatymui",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586218-2026"
-    },
-    {
-      "buyer": "['Gemeente Dijk en Waard']",
-      "country": "NLD",
-      "cpv": [
-        "72000000",
-        "72000000"
-      ],
-      "deadline": "2026-10-05+02:00",
-      "id": "586224-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Netherlands – IT services: consulting, software development, Internet and support – Enterprise Service Management (ESM) platform",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586224-2026"
-    },
-    {
-      "buyer": "['Samodzielny Publiczny Zespół Opieki Zdrowotnej w Hrubieszowie']",
-      "country": "POL",
-      "cpv": [
-        "48000000",
-        "72262000",
-        "48180000",
-        "72263000",
-        "72268000",
-        "48781000",
-        "48820000",
-        "48821000",
-        "30233130",
-        "31154000"
-      ],
-      "deadline": null,
-      "id": "586289-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Poland – Software package and information systems – Rozwój usług e-zdrowia wraz z rozbudową systemów informatycznych i rozwojem infrastruktury informatycznej w SPZOZ w Hrubieszowie",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586289-2026"
-    },
-    {
-      "buyer": "['Raidió Teilifís Éireann ( RTÉ )']",
-      "country": "IRL",
-      "cpv": [
-        "92220000",
-        "72212521",
-        "48521000",
-        "92220000",
-        "72212521",
-        "48521000"
-      ],
-      "deadline": "2026-09-07+01:00",
-      "id": "586317-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Ireland – Television services – 26P024 RTÉ Music Returns Solution",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586317-2026"
-    },
-    {
-      "buyer": "['CA PAU BEARN PYRENEES']",
-      "country": "FRA",
-      "cpv": [
-        "72212220",
-        "72212221",
-        "72413000",
-        "72420000",
-        "72212220",
-        "72212221",
-        "72413000",
-        "72420000"
-      ],
-      "deadline": null,
-      "id": "586326-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "France – Internet and intranet software development services – Maintenance, assistance et évolutions des sites DRUPAL dont Pau.fr",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586326-2026"
-    },
-    {
-      "buyer": "['Alcaldia del Ayuntamiento de Palos de la Frontera']",
-      "country": "ESP",
-      "cpv": [
-        "48000000",
         "72200000",
-        "72262000",
-        "72267000",
-        "72267100",
-        "72268000",
-        "72416000",
-        "48000000",
-        "72200000",
-        "72262000"
+        "72210000"
       ],
       "deadline": null,
-      "id": "586352-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Spain – Software package and information systems – Contratación del suministro de un sistema integral de gestión y administración electrónica y los servicios de consultoría y asistencia técnica necesarios para implantar la solución integrada en el Ayuntamiento de Palos de la Frontera.",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586352-2026"
-    },
-    {
-      "buyer": "['Alcaldía del Ayuntamiento de Huétor Tájar']",
-      "country": "ESP",
-      "cpv": [
-        "92521100",
-        "32322000",
-        "72212520",
-        "79930000",
-        "92312000",
-        "92521100",
-        "32322000",
-        "72212520",
-        "79930000",
-        "92312000"
-      ],
-      "deadline": null,
-      "id": "586356-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-social",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Spain – Museum-exhibition services – Contratacion Mixta de Servicios y Suministro para la creacion, desarrollo, produccion, suministro, instalacion y puesta en funcionamiento de una Experiencia Museistica Inmersiva en Huetor Tajar (Granada), actuacion financiada mediante subvencion de la Diputacion Provincial de Granada, mediante Procedimiento Abierto Sujeto a Regulacion Armonizada (SARA).",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586356-2026"
-    },
-    {
-      "buyer": "[\"Etat de Vaud, DGNSI - Direction générale du numérique et des systèmes d'information\"]",
-      "country": "CHE",
-      "cpv": [
-        "72000000",
-        "72000000"
-      ],
-      "deadline": null,
-      "id": "586420-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Switzerland – IT services: consulting, software development, Internet and support – Odyssée 2026",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586420-2026"
-    },
-    {
-      "buyer": "['Wiener Gesundheitsverbund Projektentwicklungs- und Baumanagement GmbH']",
-      "country": "AUT",
-      "cpv": [
-        "79400000",
-        "79410000",
-        "79420000",
-        "79421000",
-        "72300000",
-        "72200000",
-        "72220000",
-        "71000000",
-        "72000000",
-        "79400000"
-      ],
-      "deadline": "2026-08-28+02:00, 2026-08-28+02:00, 2026-08-28+02:00, 2026-08-28+02:00, 2026-08-28+02:00",
-      "id": "586445-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Austria – Business and management consultancy and related services – Fachspezifische Unterstützung PBG",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586445-2026"
-    },
-    {
-      "buyer": "['Nemzetközi Bűnügyi Együttműködési Központ']",
-      "country": "HUN",
-      "cpv": [
-        "72000000",
-        "72000000"
-      ],
-      "deadline": null,
-      "id": "586456-2026",
+      "id": "589257-2026",
       "matched_keywords": [
         "desarrollo de software",
         "desenvolvimento de software",
@@ -1857,21 +1575,23 @@
         "keyword"
       ],
       "notice_type": "can-modif",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Hungary – IT services: consulting, software development, Internet and support – MonDoc ügykezelőrendszer továbbfejlesztése",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586456-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Spain – IT services: consulting, software development, Internet and support – Contratación del servicio de renovación, implantación y mantenimiento de la plataforma de administración electrónica del Ayuntamiento de Algeciras.",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589257-2026"
     },
     {
-      "buyer": "['Provincie Flevoland']",
-      "country": "NLD",
+      "buyer": "['Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Innern, vertreten durch das Beschaffungsamt des BMI']",
+      "country": "DEU",
       "cpv": [
         "72000000",
-        "48000000",
+        "72220000",
+        "72266000",
         "72000000",
-        "48000000"
+        "72220000",
+        "72266000"
       ],
       "deadline": null,
-      "id": "586468-2026",
+      "id": "589328-2026",
       "matched_keywords": [
         "desarrollo de software",
         "desenvolvimento de software",
@@ -1883,92 +1603,204 @@
       "matched_via": [
         "keyword"
       ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Netherlands – IT services: consulting, software development, Internet and support – Licenties, softwarediensten en onderhoudsovereenkomsten voor provincie Flevoland",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586468-2026"
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Dienstleistungen im SAP-Umfeld HANA",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589328-2026"
     },
     {
-      "buyer": "['Agenția Medicamentului și Dispozitivelor Medicale']",
-      "country": "MDA",
+      "buyer": "['Ministerul Mediului, Apelor si Padurilor']",
+      "country": "ROU",
       "cpv": [
-        "48180000",
-        "72262000",
-        "48180000",
-        "72262000"
-      ],
-      "deadline": null,
-      "id": "586469-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Moldova – Medical software package – Dezvoltarea Sistemului informațional de monitorizare a stocurilor de medicamente (SIMSM)",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586469-2026"
-    },
-    {
-      "buyer": "['Kumla kommun']",
-      "country": "SWE",
-      "cpv": [
-        "72000000",
         "48000000",
+        "48000000",
+        "48210000",
+        "48710000",
+        "48780000",
         "72000000",
-        "48000000"
+        "80500000"
       ],
       "deadline": null,
-      "id": "586493-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Sweden – IT services: consulting, software development, Internet and support – Verksamhetsystem Socialförvaltningen",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586493-2026"
-    },
-    {
-      "buyer": "['Miejskie Wodociągi i Kanalizacja Sp. z o. o.']",
-      "country": "POL",
-      "cpv": [
-        "45000000",
-        "71320000",
-        "45252100",
-        "45252200",
-        "45310000",
-        "45231300",
-        "45300000",
-        "45000000",
-        "71320000"
-      ],
-      "deadline": null,
-      "id": "586624-2026",
+      "id": "589331-2026",
       "matched_keywords": [],
       "matched_via": [
         "keyword"
       ],
       "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Poland – Construction work – Zwiększenie bezpieczeństwa i niezawodności odbioru i oczyszczania ścieków dla aglomeracji Ostrowca Świętokrzyskiego poprzez modernizację Miejskiej Oczyszczalni Ścieków w Ostrowcu Św. – Etap I",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586624-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Romania – Software package and information systems – Dezvoltarea platformei digitale pentru derularea procedurilor de reglementare din punct de vedere al mediului",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589331-2026"
     },
     {
-      "buyer": "['MÁV Szolgáltató Központ Zártkörűen Működő Részvénytársaság']",
-      "country": "HUN",
+      "buyer": "['The National Archives of Norway']",
+      "country": "NOR",
+      "cpv": [
+        "72000000",
+        "48000000",
+        "72100000",
+        "72200000",
+        "72600000",
+        "72000000",
+        "48000000",
+        "72100000",
+        "72200000",
+        "72600000"
+      ],
+      "deadline": "2026-09-17Z",
+      "id": "589339-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Norway – IT services: consulting, software development, Internet and support – Management and further development of website",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589339-2026"
+    },
+    {
+      "buyer": "['Gemeente Deventer']",
+      "country": "NLD",
+      "cpv": [
+        "72000000",
+        "38221000",
+        "48000000",
+        "72263000",
+        "72000000",
+        "38221000",
+        "48000000",
+        "72263000"
+      ],
+      "deadline": null,
+      "id": "589375-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "pmc",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Netherlands – IT services: consulting, software development, Internet and support – Marktconsultatie Integraal GEO platform",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589375-2026"
+    },
+    {
+      "buyer": "['Office fédéral de l’armement armasuisse']",
+      "country": "CHE",
+      "cpv": [
+        "72000000",
+        "72000000",
+        "90742000"
+      ],
+      "deadline": null,
+      "id": "589408-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Switzerland – IT services: consulting, software development, Internet and support – Schiesslärmimmissionsmanagement (SLIM)",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589408-2026"
+    },
+    {
+      "buyer": "['Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V., IKTS']",
+      "country": "DEU",
+      "cpv": [
+        "42993200",
+        "42993200"
+      ],
+      "deadline": null,
+      "id": "589462-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – Dosing plant – Mikro-Dispens-System (OV, PR1208017)",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589462-2026"
+    },
+    {
+      "buyer": "['Miljødirektoratet']",
+      "country": "NOR",
+      "cpv": [
+        "72000000",
+        "72220000",
+        "72224000",
+        "72000000",
+        "72000000",
+        "72000000",
+        "72000000",
+        "72220000",
+        "72224000",
+        "72220000"
+      ],
+      "deadline": null,
+      "id": "589493-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Norway – IT services: consulting, software development, Internet and support – Framework agreement for digitalisation and technology.",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589493-2026"
+    },
+    {
+      "buyer": "['Verohallinto']",
+      "country": "FIN",
+      "cpv": [
+        "48000000",
+        "72000000",
+        "48000000",
+        "72000000"
+      ],
+      "deadline": "2026-09-08Z",
+      "id": "589538-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Finland – Software package and information systems – Hakupalvelu vero.fi -sivustolle, käyttöönotto sekä tuki- ja ylläpitopalvelu",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589538-2026"
+    },
+    {
+      "buyer": "['Stiftung Universität Lüneburg']",
+      "country": "DEU",
       "cpv": [
         "72000000",
         "72000000"
       ],
-      "deadline": null,
-      "id": "586645-2026",
+      "deadline": "2026-09-21+02:00",
+      "id": "589575-2026",
       "matched_keywords": [
         "desarrollo de software",
         "desenvolvimento de software",
@@ -1981,118 +1813,256 @@
         "keyword"
       ],
       "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Hungary – IT services: consulting, software development, Internet and support – SAP ECC és Infralife rendszerekhez támogatás",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586645-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Betrieb, Weiterentwicklung und Pflege leuphana.de",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589575-2026"
     },
     {
-      "buyer": "['Kriminalomsorgsdirektoratet', 'kriminalomsorgsdirektoratet']",
-      "country": "NOR, NOR",
+      "buyer": "['Sąd Apelacyjny we Wrocławiu']",
+      "country": "POL",
       "cpv": [
-        "79000000",
-        "71000000",
-        "72000000",
-        "73000000",
-        "79100000",
-        "79111000",
-        "79200000",
-        "79300000",
-        "79400000",
-        "79000000"
+        "72230000",
+        "80500000",
+        "72230000",
+        "80500000"
       ],
-      "deadline": "2026-09-24Z, 2026-09-24Z, 2026-09-24Z",
-      "id": "586773-2026",
+      "deadline": null,
+      "id": "589612-2026",
+      "matched_keywords": [
+        "custom software",
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Poland – Custom software development services – Świadczenie usług wsparcia, modyfikacji i rozwoju Zintegrowanego Systemu Rachunkowości i Kadr (ZSRK) w okresie 48 miesięcy.",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589612-2026"
+    },
+    {
+      "buyer": "['Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding - Extern Verzelfstandigd Agentschap']",
+      "country": "BEL",
+      "cpv": [
+        "72230000",
+        "72230000"
+      ],
+      "deadline": null,
+      "id": "589636-2026",
+      "matched_keywords": [
+        "custom software",
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Belgium – Custom software development services – Levering, implementatie en het onderhoud van een geïntegreerd LMS- en ELO-platform voor wegcode en vakbekwaamheid",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589636-2026"
+    },
+    {
+      "buyer": "['Slovenská televízia a rozhlas']",
+      "country": "SVK",
+      "cpv": [
+        "48311000",
+        "72000000",
+        "72267100",
+        "72261000",
+        "72512000",
+        "48311000",
+        "72000000",
+        "72267100",
+        "72261000",
+        "72512000"
+      ],
+      "deadline": null,
+      "id": "589672-2026",
       "matched_keywords": [],
       "matched_via": [
         "keyword"
       ],
       "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Norway – Business services: law, marketing, consulting, recruitment, printing and security – Consultancy services",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586773-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Slovakia – Document management software package – Automatizovaný systém elektronickej správy registratúry, obehu dokumentov a DMS pre STVR",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589672-2026"
     },
     {
-      "buyer": "['NRW.BANK AöR']",
+      "buyer": "['Lapin hyvinvointialue']",
+      "country": "FIN",
+      "cpv": [
+        "64000000",
+        "48000000",
+        "72000000",
+        "79571000",
+        "64000000",
+        "48000000",
+        "72000000",
+        "79571000"
+      ],
+      "deadline": "2026-08-10Z",
+      "id": "589689-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Finland – Postal and telecommunications services – Digitaalinen postipalvelu",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589689-2026"
+    },
+    {
+      "buyer": "['Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Innern, vertreten durch das Beschaffungsamt des BMI']",
+      "country": "DEU",
+      "cpv": [
+        "72000000",
+        "72220000",
+        "72266000",
+        "72000000",
+        "72220000",
+        "72266000"
+      ],
+      "deadline": null,
+      "id": "589716-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Dienstleistungen im SAP-Umfeld HANA",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589716-2026"
+    },
+    {
+      "buyer": "['Gmina Miasto Rzeszów - Urząd Miasta Rzeszowa']",
+      "country": "POL",
+      "cpv": [
+        "72000000",
+        "31644000",
+        "48820000",
+        "48219100",
+        "48781000",
+        "48620000",
+        "72000000",
+        "31644000",
+        "48820000",
+        "48219100"
+      ],
+      "deadline": null,
+      "id": "589746-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "integracja systemów",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Poland – IT services: consulting, software development, Internet and support – Rozbudowa i integracja systemów sprzedaży i kontroli oraz portalu pasażera wraz z zakupem niezbędnej infrastruktury",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589746-2026"
+    },
+    {
+      "buyer": "['Riigi Tugiteenuste Keskus']",
+      "country": "EST",
+      "cpv": [
+        "72210000",
+        "72220000",
+        "72262000",
+        "72266000",
+        "72261000",
+        "72200000",
+        "72250000",
+        "72254000",
+        "72210000",
+        "72220000"
+      ],
+      "deadline": null,
+      "id": "589796-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Estonia – Programming services of packaged software products – Tõlkevärava hooldus- ja kasutajatoe teenus (Eesti Keele Instituut)",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589796-2026"
+    },
+    {
+      "buyer": "['Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Innern, vertreten durch das Beschaffungsamt des BMI']",
+      "country": "DEU",
+      "cpv": [
+        "72000000",
+        "72220000",
+        "72266000",
+        "72000000",
+        "72220000",
+        "72266000"
+      ],
+      "deadline": null,
+      "id": "589843-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Dienstleistungen im SAP-Umfeld HANA",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589843-2026"
+    },
+    {
+      "buyer": "['AB Lietuvos radijo ir televizijos centras']",
+      "country": "LTU",
+      "cpv": [
+        "50712000",
+        "50712000",
+        "50712000"
+      ],
+      "deadline": null,
+      "id": "589848-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Lithuania – Repair and maintenance services of mechanical building installations – Šildymo sistemų priežiūros paslaugos (Atviras konkursas)",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589848-2026"
+    },
+    {
+      "buyer": "['Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Innern, vertreten durch das Beschaffungsamt des BMI']",
       "country": "DEU",
       "cpv": [
         "72000000",
         "72000000"
       ],
       "deadline": null,
-      "id": "586784-2026",
-      "matched_keywords": [
-        "desarrollo de software",
-        "desenvolvimento de software",
-        "développement de logiciels",
-        "software development",
-        "softwareontwikkeling",
-        "szoftverfejlesztés"
-      ],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – IT services: consulting, software development, Internet and support – Rahmenvertrag SAP BAIS ORRP (Los 2)",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586784-2026"
-    },
-    {
-      "buyer": "['Gmina i Miasto Dobczyce']",
-      "country": "POL",
-      "cpv": [
-        "48900000",
-        "48800000",
-        "48700000",
-        "42961000",
-        "48921000",
-        "38800000",
-        "72000000",
-        "72222200",
-        "72500000",
-        "51610000"
-      ],
-      "deadline": null,
-      "id": "586908-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Poland – Miscellaneous software package and computer systems – Podniesienie odporności na zagrożenia cybernetyczne infrastruktury wodno-ściekowej w Gminie Dobczyce, w ramach projektu \"Cyberbezpieczne Wodociągi\"",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586908-2026"
-    },
-    {
-      "buyer": "['FAIR - Facility for Antiproton and Ion Research in Europe GmbH', 'GSI Helmholtzzentrum für Schwerionenforschung GmbH']",
-      "country": "DEU, DEU",
-      "cpv": [
-        "72210000",
-        "72212000",
-        "72212420",
-        "72210000",
-        "72212000",
-        "72212420"
-      ],
-      "deadline": null,
-      "id": "586971-2026",
-      "matched_keywords": [],
-      "matched_via": [
-        "keyword"
-      ],
-      "notice_type": "can-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Germany – Programming services of packaged software products – RV CAFM für den Betrieb FAIR mit GSI",
-      "url": "https://ted.europa.eu/en/notice/-/detail/586971-2026"
-    },
-    {
-      "buyer": "['Stichting Universiteit voor Humanistiek']",
-      "country": "NLD",
-      "cpv": [
-        "72000000",
-        "72000000"
-      ],
-      "deadline": "2026-09-21+02:00",
-      "id": "587049-2026",
+      "id": "589881-2026",
       "matched_keywords": [
         "desarrollo de software",
         "desenvolvimento de software",
@@ -2105,19 +2075,54 @@
         "keyword"
       ],
       "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Netherlands – IT services: consulting, software development, Internet and support – Europese aanbesteding ICT-beheer",
-      "url": "https://ted.europa.eu/en/notice/-/detail/587049-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Unterstützungsleistungen für den IT-Betrieb",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589881-2026"
     },
     {
-      "buyer": "['Dirección Económico-Financiera de ENAIRE']",
-      "country": "ESP",
+      "buyer": "['Itä-Suomen yliopisto']",
+      "country": "FIN",
       "cpv": [
-        "72212218",
-        "72212218"
+        "72000000",
+        "48000000",
+        "72000000",
+        "48000000"
       ],
       "deadline": null,
-      "id": "587069-2026",
+      "id": "589892-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Finland – IT services: consulting, software development, Internet and support – Budjetointi- ja ennustamisjärjestelmä",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589892-2026"
+    },
+    {
+      "buyer": "['Department of Contracts']",
+      "country": "MLT",
+      "cpv": [
+        "72212190",
+        "72212931",
+        "72200000",
+        "72000000",
+        "72212190",
+        "72212190",
+        "72212190",
+        "72212190",
+        "72212190",
+        "72212190"
+      ],
+      "deadline": null,
+      "id": "589951-2026",
       "matched_keywords": [
         "desarrollo de software",
         "desenvolvimento de software",
@@ -2128,37 +2133,273 @@
         "keyword"
       ],
       "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Spain – License management software development services – Implantación del sistema corporativo de gestión de activos digitales (DAM) en ADOBE Experience Manager Assets Cloud Service",
-      "url": "https://ted.europa.eu/en/notice/-/detail/587069-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Malta – Educational software development services – CT3050/2026 - TENDER FOR THE DESIGN, DEVELOPMENT, IMPLEMENTATION AND CONTINUOUS IMPROVEMENT OF BESPOKE DIGITAL EDUCATIONAL CONTENT FOR LANGUAGES AND HUMANITIES CORE AND COMPULSORY SUBJECTS FOR THE ONE DEVICE PER CHILD PROJECT",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589951-2026"
     },
     {
-      "buyer": "['KOMENDA GŁÓWNA OCHOTNICZYCH HUFCÓW PRACY']",
-      "country": "POL",
+      "buyer": "['Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Innern, vertreten durch das Beschaffungsamt des BMI']",
+      "country": "DEU",
       "cpv": [
-        "79512000",
-        "72240000",
-        "72260000",
-        "48000000",
-        "72242000",
-        "80420000",
-        "72400000",
-        "72227000",
-        "72244000",
-        "72243000"
+        "72000000",
+        "72220000",
+        "72266000",
+        "72000000",
+        "72220000",
+        "72266000"
       ],
       "deadline": null,
-      "id": "587109-2026",
-      "matched_keywords": [],
+      "id": "589986-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
       "matched_via": [
         "keyword"
       ],
       "notice_type": "cn-standard",
-      "publication_date": "2026-08-25+02:00",
-      "title": "Poland – Call centre – Budowa i wdrożenie systemu teleinformatycznego - wielokanałowej platformy obsługi klienta",
-      "url": "https://ted.europa.eu/en/notice/-/detail/587109-2026"
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Dienstleistungen im SAP-Umfeld HANA",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589986-2026"
+    },
+    {
+      "buyer": "['Landeshauptstadt München, IT@M-BO4, Vergabemanagement']",
+      "country": "DEU",
+      "cpv": [
+        "72000000",
+        "72250000",
+        "72220000",
+        "72240000",
+        "72200000",
+        "72000000",
+        "72250000",
+        "72220000",
+        "72240000",
+        "72200000"
+      ],
+      "deadline": null,
+      "id": "589992-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Rahmenvereinbarung Wohnen in München / SoWon 25",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589992-2026"
+    },
+    {
+      "buyer": "[\"Institut National d'Assurance Maladie - Invalidité\"]",
+      "country": "BEL",
+      "cpv": [
+        "72250000",
+        "72267000",
+        "72262000",
+        "72250000"
+      ],
+      "deadline": null,
+      "id": "589994-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Belgium – System and support services – Médiation interculturelle par visioconférence",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589994-2026"
+    },
+    {
+      "buyer": "['IDA Ireland']",
+      "country": "IRL",
+      "cpv": [
+        "72000000",
+        "72000000"
+      ],
+      "deadline": "2026-09-09+01:00",
+      "id": "589996-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Ireland – IT services: consulting, software development, Internet and support – Request to Participate - Qualification for Single Party Framework for the Design, Delivery and Support of IDA Ireland’s Property Management System on the Salesforce platform",
+      "url": "https://ted.europa.eu/en/notice/-/detail/589996-2026"
+    },
+    {
+      "buyer": "['Kulturraum Berlin gGmbH']",
+      "country": "DEU",
+      "cpv": [
+        "72230000",
+        "72230000"
+      ],
+      "deadline": null,
+      "id": "590014-2026",
+      "matched_keywords": [
+        "custom software",
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – Custom software development services – Weiterentwicklung der digitalen Plattform kulturraeume.berlin (Digitale Landschaft)",
+      "url": "https://ted.europa.eu/en/notice/-/detail/590014-2026"
+    },
+    {
+      "buyer": "['DRV Bund Einkaufsmanagement']",
+      "country": "DEU",
+      "cpv": [
+        "72000000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "590071-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Unterstützung IT-Helpdesk Servicecenter",
+      "url": "https://ted.europa.eu/en/notice/-/detail/590071-2026"
+    },
+    {
+      "buyer": "['Universität Zürich Assetmanagement']",
+      "country": "CHE",
+      "cpv": [
+        "72000000",
+        "72000000"
+      ],
+      "deadline": null,
+      "id": "590139-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Switzerland – IT services: consulting, software development, Internet and support – Erneuerung Archivlösung für SAP-Umgebung",
+      "url": "https://ted.europa.eu/en/notice/-/detail/590139-2026"
+    },
+    {
+      "buyer": "['EnBAG AG']",
+      "country": "CHE",
+      "cpv": [
+        "44520000",
+        "44520000",
+        "45210000"
+      ],
+      "deadline": null,
+      "id": "590202-2026",
+      "matched_keywords": [],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Switzerland – Locks, keys and hinges – EnBAG AG: Schliesssystem",
+      "url": "https://ted.europa.eu/en/notice/-/detail/590202-2026"
+    },
+    {
+      "buyer": "['Dirección General de la Entidad Pública Empresarial RED.ES']",
+      "country": "ESP",
+      "cpv": [
+        "72000000",
+        "72220000",
+        "72224000",
+        "72000000",
+        "72000000",
+        "72000000",
+        "72000000",
+        "72000000",
+        "72000000",
+        "72220000"
+      ],
+      "deadline": null,
+      "id": "590211-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "cn-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Spain – IT services: consulting, software development, Internet and support – Servicio de consultoría para actuaciones en el marco del programa Escudo digital.es",
+      "url": "https://ted.europa.eu/en/notice/-/detail/590211-2026"
+    },
+    {
+      "buyer": "['Centrum Zakupów dla Sądownictwa Instytucja Gospodarki Budżetowej reprezentująca Sąd Apelacyjny w Krakowie']",
+      "country": "POL",
+      "cpv": [
+        "72000000",
+        "72267000",
+        "72220000",
+        "72000000",
+        "72267000",
+        "72220000"
+      ],
+      "deadline": null,
+      "id": "590220-2026",
+      "matched_keywords": [
+        "desarrollo de software",
+        "desenvolvimento de software",
+        "développement de logiciels",
+        "software development",
+        "softwareontwikkeling",
+        "szoftverfejlesztés"
+      ],
+      "matched_via": [
+        "keyword"
+      ],
+      "notice_type": "can-standard",
+      "publication_date": "2026-08-26+02:00",
+      "title": "Poland – IT services: consulting, software development, Internet and support – Procedura wykonawcza do umowy ramowej na dostawę oprogramowania SNOW Software lub równoważnego na rzecz sądów powszechnych oraz Ministerstwa Sprawiedliwości wraz z usługami towarzyszącymi",
+      "url": "https://ted.europa.eu/en/notice/-/detail/590220-2026"
     }
   ],
-  "run_date": "2026-08-25",
-  "total_candidates_this_run": 340
+  "run_date": "2026-08-26",
+  "total_candidates_this_run": 358
 }
