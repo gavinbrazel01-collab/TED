@@ -2,31 +2,7 @@
 """
 Daily TED (Tenders Electronic Daily) watcher for OSINT / link-analysis /
 digital-forensics / data-fusion / criminal-intelligence platform tenders.
- 
-What this does:
-  1. Queries the public TED Search API (https://api.ted.europa.eu/v3/notices/search)
-     twice: once by CPV classification code, once by full-text keyword (across EN/DE/
-     FR/ES/IT/HU/PL/NL/PT), both restricted to a trailing publication-date window.
-  2. Merges + de-duplicates the two result sets by notice ID.
-  3. Compacts each raw notice down to a small, fixed set of fields (id, title, buyer,
-     country, cpv, deadline, publication date, url, which keywords matched) --
-     regardless of what TED's raw payload actually contains, since the exact shape
-     of that payload could not be verified live while this was written.
-  4. Cross-checks against data/seen.json (a running list of notice IDs we've already
-     surfaced) so only genuinely NEW notices are reported each run.
-  5. Writes data/latest.json (today's new candidates, for the downstream email step),
-     data/debug_last_raw_sample.json (one untouched raw notice, for debugging field
-     names if something looks wrong), and updates data/seen.json.
- 
-KNOWN RISK: TED's expert-query operator syntax (`~`, `=`, `IN (...)`) is built from
-the officially documented request schema (query/fields/page/limit/scope/
-paginationMode) plus TED website conventions, but could not be verified against a
-live call while writing this (no outbound access to api.ted.europa.eu from that
-environment). If a run's log shows a TED API error, the error body usually says
-exactly what's wrong -- bring it back to get the query strings adjusted. The
-compaction step below is deliberately defensive (tries many possible key names) so
-that even if the `fields` list isn't fully honored by TED, output size stays small
-and usable.
+
 """
  
 import json
